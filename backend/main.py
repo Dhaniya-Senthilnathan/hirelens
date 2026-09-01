@@ -5,6 +5,7 @@ Run with:
     uvicorn main:app --reload --port 8000
 """
 import logging
+import os
 import traceback
 from pathlib import Path
 
@@ -43,10 +44,18 @@ async def handle_unexpected_exception(request, exc: Exception):
     )
 
 
-# Allow the static frontend (served from anywhere - file://, 127.0.0.1, live-server, etc.)
+# Allow the GitHub Pages frontend and local development origins.
+# Render will set the real backend origin separately; this list can be
+# overridden with CORS_ALLOWED_ORIGINS if needed in deployment.
+allowed_origins = os.environ.get(
+    "CORS_ALLOWED_ORIGINS",
+    "https://dhaniya-senthilnathan.github.io,http://127.0.0.1:8000,http://localhost:8000,http://127.0.0.1:8080,http://localhost:8080",
+).split(",")
+allowed_origins = [origin.strip() for origin in allowed_origins if origin.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

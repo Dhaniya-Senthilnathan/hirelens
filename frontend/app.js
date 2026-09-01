@@ -5,7 +5,8 @@
    ========================================================== */
 
 const API_BASE = (function () {
-  if (location.protocol === "http:" && location.port === "8000") {
+  if (window.HIRELENS_API_BASE) return window.HIRELENS_API_BASE;
+  if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
     return `${location.protocol}//${location.host}`;
   }
   return "http://127.0.0.1:8000";

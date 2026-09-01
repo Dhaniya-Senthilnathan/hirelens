@@ -5,6 +5,105 @@ score, shows which required skills you already have, and lists what's
 missing with a learning resource for each gap — so you know where you stand
 **before** you apply, not after.
 
+## Deployment overview
+
+This project is prepared for:
+
+- Frontend deployment to GitHub Pages from the `frontend/` directory
+- Backend deployment to Render using the FastAPI app in `backend/main.py`
+
+The frontend is static and does not run Python. The backend is the FastAPI API service and must run on Render with `0.0.0.0` and `$PORT`.
+
+## Local backend setup
+
+```bash
+cd backend
+python -m venv .venv
+# Windows PowerShell
+# .\.venv\Scripts\Activate.ps1
+# macOS/Linux
+# source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+The app is available at:
+
+```txt
+http://127.0.0.1:8000
+```
+
+## Local frontend setup
+
+The frontend can be opened directly as a static site, or served locally with a simple static server.
+
+```bash
+cd frontend
+python -m http.server 8080
+```
+
+Then open:
+
+```txt
+http://127.0.0.1:8080
+```
+
+For local development, the frontend expects the backend at `http://127.0.0.1:8000` unless you set `window.HIRELENS_API_BASE` before the app scripts load.
+
+## GitHub Pages deployment
+
+GitHub Pages is configured with the workflow in `.github/workflows/deploy-pages.yml` and publishes the `frontend/` folder as the site source.
+
+The public site will be:
+
+```txt
+https://dhaniya-senthilnathan.github.io/hirelens/
+```
+
+No Python or FastAPI code is run on GitHub Pages.
+
+## Render deployment
+
+The backend is configured in `render.yaml` and uses:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+This starts the app from the backend root, which matches the actual FastAPI location in `backend/main.py`.
+
+## Environment variables
+
+Create a local `.env` file from `.env.example` and fill in your own values. Do not commit secrets.
+
+```bash
+copy .env.example .env
+```
+
+Important values:
+
+- `HIRELENS_SECRET_KEY`
+- `GOOGLE_CLIENT_ID`
+- `GOOGLE_CLIENT_SECRET`
+- `GOOGLE_REDIRECT_URI`
+- `TESSERACT_CMD` (optional, only if OCR is installed in a custom path)
+
+## Database note
+
+The app uses SQLite in `backend/database/hirelens.db`. This is fine for a simple local app and a small Render deployment, but SQLite is not ideal for a highly concurrent multi-instance production deployment. For heavier production traffic, a managed PostgreSQL database would be recommended separately.
+
+## API configuration
+
+The frontend uses a centralized API base in `frontend/static/js/api.js`, and all fetch calls should use the `API_BASE` constant from the frontend scripts. Change the API host in one place when you deploy the backend elsewhere.
+
+For example:
+
+```js
+window.HIRELENS_API_BASE = 'https://your-render-app.onrender.com';
+```
+
+This is the only place to update after backend deployment.
+
 ## Features
 
 - **Full authentication** — sign up, log in, and log out with a real
