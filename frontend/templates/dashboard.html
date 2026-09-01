@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page dashboard-page">
+  <div class="dash-top">
+    <h1 id="dashWelcome">Welcome back</h1>
+  </div>
+  <div class="dsub">
+    <button data-dsub="new" class="on" type="button">New</button>
+    <button data-dsub="history" type="button">History</button>
+    <button data-dsub="myprofile" type="button">My Profile</button>
+    <button data-dsub="settings" type="button">Settings</button>
+  </div>
+
+  <div class="dsub-panel on" id="dsub-new">
+    <div class="upload-grid">
+      <div class="upcard" id="resumeUpcard">
+        <h3>Resume</h3>
+        <p id="resumeHint">Drag &amp; drop PDF or DOCX, or browse</p>
+        <div id="resumeFileName" style="font-family:var(--f-mono); font-size:12px; color:var(--lime); margin-bottom:10px; display:none; word-break:break-all;"></div>
+        <input type="file" id="resumeFileInput" accept=".pdf,.docx" style="display:none;">
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button class="btn btn-ghost btn-sm" id="browseResumeBtn" type="button">Browse file</button>
+          <button class="btn btn-ghost btn-sm" id="useSavedResumeBtn" type="button" style="display:none;">Use saved resume</button>
+        </div>
+      </div>
+      <div class="upcard" id="jdUpcard" style="cursor:default;">
+        <h3>Job description</h3>
+        <div class="jd-toggle" id="jdToggle">
+          <button class="on" data-jdmode="paste" type="button">Paste text</button>
+          <button data-jdmode="file" type="button">Upload file</button>
+        </div>
+        <p id="jdHint">Paste the full JD or upload a .txt/.pdf</p>
+        <input type="text" id="jobTitleInput" placeholder="Role / company (optional)" style="width:100%; padding:10px 12px; margin-bottom:12px; border-radius:8px; border:.5px solid var(--line2); background:var(--panel); color:var(--text); font-family:var(--f-body); font-size:13px; display:none;">
+        <textarea id="jdTextarea" placeholder="Paste the job description here..." style="width:100%; min-height:120px; padding:12px 14px; border-radius:8px; border:.5px solid var(--line2); background:var(--panel); color:var(--text); font-family:var(--f-body); font-size:13px; resize:vertical; display:none; margin-bottom:10px;"></textarea>
+        <input type="file" id="jdFileInput" accept=".txt,.pdf" style="display:none;">
+        <div id="jdFileName" style="font-family:var(--f-mono); font-size:12px; color:var(--lime); margin-bottom:10px; display:none; word-break:break-all;"></div>
+        <button class="btn btn-ghost btn-sm" id="jdActionBtn" type="button">Open text area</button>
+      </div>
+    </div>
+    <div id="analyzeError" style="display:none; color:var(--coral); font-size:13px; font-family:var(--f-mono); margin-bottom:16px;"></div>
+    <div class="run-row"><button class="btn btn-primary" id="runAnalysisBtn" type="button">Run analysis →</button></div>
+
+    <div class="result-block" id="resultBlock">
+      <div class="res-top">
+        <div class="gauge">
+          <svg width="160" height="160">
+            <circle cx="80" cy="80" r="70" stroke="var(--line)" stroke-width="9" fill="none"></circle>
+            <circle id="gaugeRing" cx="80" cy="80" r="70" stroke="var(--lime)" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="440" stroke-dashoffset="440"></circle>
+          </svg>
+          <div class="gauge-num"><span class="n" id="gaugeNum">0%</span><span class="l">MATCH SCORE</span></div>
+        </div>
+        <div class="res-summary">
+          <h2 id="resSummaryTitle">Strong fit — a few gaps to close</h2>
+          <p id="resSummaryText">You match your required skills for this role.</p>
+        </div>
+      </div>
+      <div class="chips" id="chipsContainer"></div>
+
+      <div class="recent" id="recommendationsPanel" style="display:none;">
+        <h4>Learning recommendations</h4>
+        <div id="recommendationsList"></div>
+      </div>
+
+      <div class="export-row">
+        <button class="btn btn-ghost btn-sm" id="exportPdfBtn" type="button">Export PDF</button>
+        <button class="btn btn-primary btn-sm" id="saveReportBtn" type="button">Save report</button>
+      </div>
+    </div>
+
+    <div class="recent">
+      <h4>Recent analyses</h4>
+      <div id="recentList">
+        <div class="rrow"><div><div class="rt">No analyses yet</div><div class="rd">Run your first analysis above</div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dsub-panel" id="dsub-history">
+    <div class="hist-topbar"><span style="font-size:13px;color:var(--text2)" id="historyCount">0 saved reports</span><input class="search" id="historySearch" placeholder="Search by role or company"></div>
+    <table class="hist-table">
+      <thead><tr><th>Role</th><th>Date</th><th>Score</th><th></th></tr></thead>
+      <tbody id="historyTableBody">
+        <tr><td colspan="4" style="color:var(--text3); font-size:13px;">No saved reports yet.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="dsub-panel" id="dsub-myprofile">
+    <div class="settings-grid">
+      <p style="font-size:13px;color:var(--text2);margin-bottom:6px;">Complete your profile so recommendations and reports carry your details.</p>
+      <div class="set-row" data-field="name"><div><div class="sl">Full name</div><div class="sd" data-value>—</div></div><button class="btn btn-ghost btn-sm" data-edit>Edit</button></div>
+      <div class="set-row" data-field="email"><div><div class="sl">Email</div><div class="sd" data-value>—</div></div><span style="font-size:11px;color:var(--text3);font-family:var(--f-mono);">not editable</span></div>
+      <div class="set-row" data-field="phone"><div><div class="sl">Phone number</div><div class="sd" data-value>Not added</div></div><button class="btn btn-ghost btn-sm" data-edit>Add</button></div>
+      <div class="set-row" data-field="college"><div><div class="sl">College / university</div><div class="sd" data-value>Not added</div></div><button class="btn btn-ghost btn-sm" data-edit>Add</button></div>
+      <div class="set-row" data-field="branch_year"><div><div class="sl">Branch &amp; graduation year</div><div class="sd" data-value>Not added</div></div><button class="btn btn-ghost btn-sm" data-edit>Add</button></div>
+      <div class="set-row" data-field="linkedin_github"><div><div class="sl">LinkedIn / GitHub</div><div class="sd" data-value>Not added</div></div><button class="btn btn-ghost btn-sm" data-edit>Add</button></div>
+      <div class="set-row">
+        <div><div class="sl">Default resume on file</div><div class="sd" id="defaultResumeStatus">None uploaded</div></div>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-ghost btn-sm" id="removeDefaultResumeBtn" type="button" style="display:none; color:var(--coral); border-color:var(--coral-dim);">Remove</button>
+          <button class="btn btn-ghost btn-sm" id="uploadDefaultResumeBtn" type="button">Upload</button>
+        </div>
+      </div>
+      <input type="file" id="defaultResumeInput" accept=".pdf,.docx" style="display:none;">
+      <div id="profileSavedNote" style="display:none; color:var(--lime); font-size:12px; font-family:var(--f-mono); margin-top:4px;">Saved ✓</div>
+    </div>
+  </div>
+
+  <div class="dsub-panel" id="dsub-settings">
+    <div class="settings-grid">
+      <div class="set-row"><div><div class="sl">Language</div><div class="sd">Interface language (English only for now)</div></div>
+        <select id="languageSelect" style="background:var(--panel); color:var(--text); border:.5px solid var(--line2); border-radius:8px; padding:8px 12px; font-size:13px;">
+          <option>English</option><option>Tamil</option><option>Hindi</option><option>French</option>
+        </select>
+      </div>
+      <div class="set-row"><div><div class="sl">Email me when a report finishes</div><div class="sd">Notification preference (no email server configured in this local build — saved as a preference only)</div></div><div class="toggle on" id="notifToggle"></div></div>
+      <div class="set-row"><div><div class="sl">Dark theme</div><div class="sd">Applies across the app</div></div><div class="toggle on" id="themeToggle"></div></div>
+      <div class="set-row"><div><div class="sl">Delete account</div><div class="sd">Removes all saved reports permanently</div></div><button class="btn btn-ghost btn-sm" id="deleteAccountBtn" type="button" style="color:var(--coral);border-color:var(--coral-dim);">Delete</button></div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', path='js/dashboard.js') }}"></script>
+{% endblock %}

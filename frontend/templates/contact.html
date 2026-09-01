@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page editorial-page">
+  <div class="edit-shell" style="max-width:900px;">
+    <div class="eyebrow">Contact</div>
+    <h1>Questions, bug reports, feature ideas.</h1>
+    <p class="lead">This is a small, actively-developed project — if something breaks or you want a skill added to the database, this is the fastest way to reach me.</p>
+    <div class="contact-grid">
+      <div>
+        <div class="cfield"><label>Name</label><input type="text" id="contactNameInput" placeholder="Your name"></div>
+        <div class="cfield"><label>Email</label><input type="text" id="contactEmailInput" placeholder="name@college.edu"></div>
+        <div class="cfield"><label>Message</label><textarea id="contactMessageInput" placeholder="What's on your mind?"></textarea></div>
+        <div id="contactStatus" style="display:none; font-size:12px; font-family:var(--f-mono); margin-bottom:10px;"></div>
+        <button class="btn btn-primary" id="contactSubmitBtn" type="button">Send message</button>
+      </div>
+      <div class="contact-side">
+        <h3>Direct lines</h3>
+        <div class="crow">Email <b>hello@hirelens.app</b></div>
+        <div class="crow">GitHub <b>@anbu</b></div>
+        <div class="crow">Response time <b>~2 days</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', path='js/contact.js') }}"></script>
+{% endblock %}

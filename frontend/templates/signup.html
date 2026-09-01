@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page auth-page">
+  <div class="auth-shell">
+    <div class="auth-left">
+      <div>
+        <div class="logo" style="margin-bottom:26px;"><span class="logo-mark"><span></span><span></span><span></span></span>hirelens</div>
+        <h2>Track more than one score.</h2>
+        <ul class="benefits">
+          <li><b>→</b>Save every analysis so you can watch your match score improve</li>
+          <li><b>→</b>Get resource links picked for exactly what you're missing</li>
+          <li><b>→</b>Compare yourself across multiple roles at once</li>
+        </ul>
+      </div>
+      <div class="mini-bars">
+        <span class="on" style="height:22px"></span><span style="height:14px"></span><span class="on" style="height:38px"></span>
+        <span style="height:10px"></span><span class="on" style="height:30px"></span><span class="on" style="height:44px"></span>
+        <span style="height:18px"></span><span class="on" style="height:26px"></span>
+      </div>
+    </div>
+    <div class="auth-right">
+      <div class="auth-note" id="authNote">Log in to view your dashboard.</div>
+
+      <div id="authNormalPanel">
+        <div class="tabs">
+          <button id="tabSignin" type="button">Sign in</button>
+          <button class="on" id="tabSignup" type="button">Create account</button>
+        </div>
+        <div class="field field-signup show" id="nameField"><label>Full name</label><input type="text" id="authNameInput" placeholder="Anbu"></div>
+        <div class="field"><label>Email</label><input type="text" id="authEmailInput" placeholder="name@college.edu"></div>
+        <div class="field"><label>Password</label><input type="password" id="authPasswordInput" placeholder="••••••••"></div>
+        <div class="field field-signup show" id="confirmField"><label>Confirm password</label><input type="password" id="authConfirmInput" placeholder="••••••••"></div>
+        <div class="field-check field-signup show" id="termsField"><input type="checkbox" id="authTermsCheckbox"> I agree to the terms and privacy policy</div>
+        <div id="authError" style="display:none; color:var(--coral); font-size:12px; font-family:var(--f-mono); margin-bottom:12px;"></div>
+        <button class="auth-submit" id="authSubmitBtn" type="button">Create account</button>
+        <div class="divider">or continue with</div>
+        <button class="oauth-btn" id="googleOauthBtn" type="button">Continue with Google</button>
+        <div class="forgot" id="forgotPasswordLink">Forgot password?</div>
+      </div>
+
+      <div id="authResetPanel" style="display:none;">
+        <div class="tabs"><button class="on" type="button">Reset password</button></div>
+        <p style="font-size:12px; color:var(--text3); font-family:var(--f-mono); margin-bottom:16px; line-height:1.5;">
+          This local build has no email server, so there's no reset email — confirming your account email below unlocks the new-password step directly.
+        </p>
+        <div class="field" id="resetEmailField"><label>Account email</label><input type="text" id="resetEmailInput" placeholder="name@college.edu"></div>
+        <div id="resetStep1Error" style="display:none; color:var(--coral); font-size:12px; font-family:var(--f-mono); margin-bottom:12px;"></div>
+        <button class="auth-submit" id="resetRequestBtn" type="button">Continue</button>
+
+        <div id="resetStep2" style="display:none;">
+          <div class="field"><label>New password</label><input type="password" id="resetNewPasswordInput" placeholder="••••••••"></div>
+          <div class="field"><label>Confirm new password</label><input type="password" id="resetConfirmPasswordInput" placeholder="••••••••"></div>
+          <div id="resetStep2Error" style="display:none; color:var(--coral); font-size:12px; font-family:var(--f-mono); margin-bottom:12px;"></div>
+          <button class="auth-submit" id="resetSubmitBtn" type="button">Set new password</button>
+        </div>
+
+        <div class="forgot" id="backToSigninLink" style="margin-top:16px;">Back to sign in</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', path='js/auth.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,2927 @@
+{
+  "python": {
+    "title": "Official Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "category": "Programming Languages"
+  },
+  "java": {
+    "title": "Oracle Java Tutorials",
+    "url": "https://docs.oracle.com/javase/tutorial/",
+    "category": "Programming Languages"
+  },
+  "javascript": {
+    "title": "MDN JavaScript Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "category": "Programming Languages"
+  },
+  "typescript": {
+    "title": "TypeScript Official Docs",
+    "url": "https://www.typescriptlang.org/docs/",
+    "category": "Programming Languages"
+  },
+  "c": {
+    "title": "Learn C",
+    "url": "https://www.freecodecamp.org/news/search/?query=c",
+    "category": "Programming Languages"
+  },
+  "c++": {
+    "title": "LearnCpp.com",
+    "url": "https://www.learncpp.com/",
+    "category": "Programming Languages"
+  },
+  "c#": {
+    "title": "Microsoft C# Docs",
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "category": "Programming Languages"
+  },
+  "go": {
+    "title": "Go by Example",
+    "url": "https://go.dev/learn/",
+    "category": "Programming Languages"
+  },
+  "golang": {
+    "title": "Go by Example",
+    "url": "https://go.dev/learn/",
+    "category": "Programming Languages"
+  },
+  "rust": {
+    "title": "The Rust Book",
+    "url": "https://doc.rust-lang.org/book/",
+    "category": "Programming Languages"
+  },
+  "ruby": {
+    "title": "Learn Ruby",
+    "url": "https://www.freecodecamp.org/news/search/?query=ruby",
+    "category": "Programming Languages"
+  },
+  "php": {
+    "title": "Learn Php",
+    "url": "https://www.freecodecamp.org/news/search/?query=php",
+    "category": "Programming Languages"
+  },
+  "swift": {
+    "title": "Learn Swift",
+    "url": "https://www.freecodecamp.org/news/search/?query=swift",
+    "category": "Programming Languages"
+  },
+  "kotlin": {
+    "title": "Learn Kotlin",
+    "url": "https://www.freecodecamp.org/news/search/?query=kotlin",
+    "category": "Programming Languages"
+  },
+  "scala": {
+    "title": "Learn Scala",
+    "url": "https://www.freecodecamp.org/news/search/?query=scala",
+    "category": "Programming Languages"
+  },
+  "r": {
+    "title": "Learn R",
+    "url": "https://www.freecodecamp.org/news/search/?query=r",
+    "category": "Programming Languages"
+  },
+  "matlab": {
+    "title": "Learn Matlab",
+    "url": "https://www.freecodecamp.org/news/search/?query=matlab",
+    "category": "Programming Languages"
+  },
+  "perl": {
+    "title": "Learn Perl",
+    "url": "https://www.freecodecamp.org/news/search/?query=perl",
+    "category": "Programming Languages"
+  },
+  "dart": {
+    "title": "Learn Dart",
+    "url": "https://www.freecodecamp.org/news/search/?query=dart",
+    "category": "Programming Languages"
+  },
+  "objective-c": {
+    "title": "Learn Objective-C",
+    "url": "https://www.freecodecamp.org/news/search/?query=objective-c",
+    "category": "Programming Languages"
+  },
+  "shell scripting": {
+    "title": "Learn Shell Scripting",
+    "url": "https://www.freecodecamp.org/news/search/?query=shell+scripting",
+    "category": "Programming Languages"
+  },
+  "bash": {
+    "title": "Learn Bash",
+    "url": "https://www.freecodecamp.org/news/search/?query=bash",
+    "category": "Programming Languages"
+  },
+  "powershell": {
+    "title": "Learn Powershell",
+    "url": "https://www.freecodecamp.org/news/search/?query=powershell",
+    "category": "Programming Languages"
+  },
+  "sql": {
+    "title": "Mode SQL Tutorial",
+    "url": "https://mode.com/sql-tutorial/",
+    "category": "Programming Languages"
+  },
+  "html": {
+    "title": "Learn Html",
+    "url": "https://www.freecodecamp.org/news/search/?query=html",
+    "category": "Programming Languages"
+  },
+  "css": {
+    "title": "Learn Css",
+    "url": "https://www.freecodecamp.org/news/search/?query=css",
+    "category": "Programming Languages"
+  },
+  "assembly": {
+    "title": "Learn Assembly",
+    "url": "https://www.freecodecamp.org/news/search/?query=assembly",
+    "category": "Programming Languages"
+  },
+  "haskell": {
+    "title": "Learn Haskell",
+    "url": "https://www.freecodecamp.org/news/search/?query=haskell",
+    "category": "Programming Languages"
+  },
+  "lua": {
+    "title": "Learn Lua",
+    "url": "https://www.freecodecamp.org/news/search/?query=lua",
+    "category": "Programming Languages"
+  },
+  "julia": {
+    "title": "Learn Julia",
+    "url": "https://www.freecodecamp.org/news/search/?query=julia",
+    "category": "Programming Languages"
+  },
+  "groovy": {
+    "title": "Learn Groovy",
+    "url": "https://www.freecodecamp.org/news/search/?query=groovy",
+    "category": "Programming Languages"
+  },
+  "vb.net": {
+    "title": "Learn Vb.Net",
+    "url": "https://www.freecodecamp.org/news/search/?query=vb.net",
+    "category": "Programming Languages"
+  },
+  "cobol": {
+    "title": "Learn Cobol",
+    "url": "https://www.freecodecamp.org/news/search/?query=cobol",
+    "category": "Programming Languages"
+  },
+  "fortran": {
+    "title": "Learn Fortran",
+    "url": "https://www.freecodecamp.org/news/search/?query=fortran",
+    "category": "Programming Languages"
+  },
+  "solidity": {
+    "title": "Learn Solidity",
+    "url": "https://www.freecodecamp.org/news/search/?query=solidity",
+    "category": "Programming Languages"
+  },
+  "elixir": {
+    "title": "Learn Elixir",
+    "url": "https://www.freecodecamp.org/news/search/?query=elixir",
+    "category": "Programming Languages"
+  },
+  "clojure": {
+    "title": "Learn Clojure",
+    "url": "https://www.freecodecamp.org/news/search/?query=clojure",
+    "category": "Programming Languages"
+  },
+  "f#": {
+    "title": "Learn F#",
+    "url": "https://www.freecodecamp.org/news/search/?query=f#",
+    "category": "Programming Languages"
+  },
+  "sql server": {
+    "title": "Learn Sql Server",
+    "url": "https://www.freecodecamp.org/news/search/?query=sql+server",
+    "category": "Programming Languages"
+  },
+  "pl/sql": {
+    "title": "Learn Pl/Sql",
+    "url": "https://www.freecodecamp.org/news/search/?query=pl/sql",
+    "category": "Programming Languages"
+  },
+  "t-sql": {
+    "title": "Learn T-Sql",
+    "url": "https://www.freecodecamp.org/news/search/?query=t-sql",
+    "category": "Programming Languages"
+  },
+  "visual basic": {
+    "title": "Learn Visual Basic",
+    "url": "https://www.freecodecamp.org/news/search/?query=visual+basic",
+    "category": "Programming Languages"
+  },
+  "abap": {
+    "title": "Learn Abap",
+    "url": "https://www.freecodecamp.org/news/search/?query=abap",
+    "category": "Programming Languages"
+  },
+  "erlang": {
+    "title": "Learn Erlang",
+    "url": "https://www.freecodecamp.org/news/search/?query=erlang",
+    "category": "Programming Languages"
+  },
+  "scheme": {
+    "title": "Learn Scheme",
+    "url": "https://www.freecodecamp.org/news/search/?query=scheme",
+    "category": "Programming Languages"
+  },
+  "prolog": {
+    "title": "Learn Prolog",
+    "url": "https://www.freecodecamp.org/news/search/?query=prolog",
+    "category": "Programming Languages"
+  },
+  "ada": {
+    "title": "Learn Ada",
+    "url": "https://www.freecodecamp.org/news/search/?query=ada",
+    "category": "Programming Languages"
+  },
+  "delphi": {
+    "title": "Learn Delphi",
+    "url": "https://www.freecodecamp.org/news/search/?query=delphi",
+    "category": "Programming Languages"
+  },
+  "vhdl": {
+    "title": "Learn Vhdl",
+    "url": "https://www.freecodecamp.org/news/search/?query=vhdl",
+    "category": "Programming Languages"
+  },
+  "verilog": {
+    "title": "Learn Verilog",
+    "url": "https://www.freecodecamp.org/news/search/?query=verilog",
+    "category": "Programming Languages"
+  },
+  "apex": {
+    "title": "Learn Apex",
+    "url": "https://www.freecodecamp.org/news/search/?query=apex",
+    "category": "Programming Languages"
+  },
+  "crystal": {
+    "title": "Learn Crystal",
+    "url": "https://www.freecodecamp.org/news/search/?query=crystal",
+    "category": "Programming Languages"
+  },
+  "nim": {
+    "title": "Learn Nim",
+    "url": "https://www.freecodecamp.org/news/search/?query=nim",
+    "category": "Programming Languages"
+  },
+  "zig": {
+    "title": "Learn Zig",
+    "url": "https://www.freecodecamp.org/news/search/?query=zig",
+    "category": "Programming Languages"
+  },
+  "ocaml": {
+    "title": "Learn Ocaml",
+    "url": "https://www.freecodecamp.org/news/search/?query=ocaml",
+    "category": "Programming Languages"
+  },
+  "react": {
+    "title": "Official React Docs",
+    "url": "https://react.dev/learn",
+    "category": "Frameworks"
+  },
+  "angular": {
+    "title": "Angular Official Tutorials",
+    "url": "https://angular.dev/tutorials",
+    "category": "Frameworks"
+  },
+  "vue.js": {
+    "title": "Vue.js Guide",
+    "url": "https://vuejs.org/guide/introduction.html",
+    "category": "Frameworks"
+  },
+  "next.js": {
+    "title": "Next.js Learn Course",
+    "url": "https://nextjs.org/learn",
+    "category": "Frameworks"
+  },
+  "nuxt.js": {
+    "title": "Learn Nuxt.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=nuxt.js",
+    "category": "Frameworks"
+  },
+  "svelte": {
+    "title": "Learn Svelte",
+    "url": "https://www.freecodecamp.org/news/search/?query=svelte",
+    "category": "Frameworks"
+  },
+  "django": {
+    "title": "Django Official Tutorial",
+    "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+    "category": "Frameworks"
+  },
+  "flask": {
+    "title": "Flask Official Tutorial",
+    "url": "https://flask.palletsprojects.com/en/latest/tutorial/",
+    "category": "Frameworks"
+  },
+  "fastapi": {
+    "title": "FastAPI Official Tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "category": "Frameworks"
+  },
+  "spring boot": {
+    "title": "Spring Official Guides",
+    "url": "https://spring.io/guides",
+    "category": "Frameworks"
+  },
+  "spring": {
+    "title": "Learn Spring",
+    "url": "https://www.freecodecamp.org/news/search/?query=spring",
+    "category": "Frameworks"
+  },
+  "express.js": {
+    "title": "Learn Express.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=express.js",
+    "category": "Frameworks"
+  },
+  "node.js": {
+    "title": "Node.js Official Guides",
+    "url": "https://nodejs.org/en/learn",
+    "category": "Frameworks"
+  },
+  "ruby on rails": {
+    "title": "Learn Ruby On Rails",
+    "url": "https://www.freecodecamp.org/news/search/?query=ruby+on+rails",
+    "category": "Frameworks"
+  },
+  "laravel": {
+    "title": "Learn Laravel",
+    "url": "https://www.freecodecamp.org/news/search/?query=laravel",
+    "category": "Frameworks"
+  },
+  ".net core": {
+    "title": "Learn .Net Core",
+    "url": "https://www.freecodecamp.org/news/search/?query=.net+core",
+    "category": "Frameworks"
+  },
+  "asp.net": {
+    "title": "Learn Asp.Net",
+    "url": "https://www.freecodecamp.org/news/search/?query=asp.net",
+    "category": "Frameworks"
+  },
+  "flutter": {
+    "title": "Flutter Official Codelab",
+    "url": "https://docs.flutter.dev/get-started/codelab",
+    "category": "Frameworks"
+  },
+  "react native": {
+    "title": "React Native Official Docs",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "category": "Frameworks"
+  },
+  "jquery": {
+    "title": "Learn Jquery",
+    "url": "https://www.freecodecamp.org/news/search/?query=jquery",
+    "category": "Frameworks"
+  },
+  "bootstrap": {
+    "title": "Learn Bootstrap",
+    "url": "https://www.freecodecamp.org/news/search/?query=bootstrap",
+    "category": "Frameworks"
+  },
+  "tailwind css": {
+    "title": "Learn Tailwind Css",
+    "url": "https://www.freecodecamp.org/news/search/?query=tailwind+css",
+    "category": "Frameworks"
+  },
+  "redux": {
+    "title": "Learn Redux",
+    "url": "https://www.freecodecamp.org/news/search/?query=redux",
+    "category": "Frameworks"
+  },
+  "spring mvc": {
+    "title": "Learn Spring Mvc",
+    "url": "https://www.freecodecamp.org/news/search/?query=spring+mvc",
+    "category": "Frameworks"
+  },
+  "hibernate": {
+    "title": "Learn Hibernate",
+    "url": "https://www.freecodecamp.org/news/search/?query=hibernate",
+    "category": "Frameworks"
+  },
+  "gin": {
+    "title": "Learn Gin",
+    "url": "https://www.freecodecamp.org/news/search/?query=gin",
+    "category": "Frameworks"
+  },
+  "nestjs": {
+    "title": "Learn Nestjs",
+    "url": "https://www.freecodecamp.org/news/search/?query=nestjs",
+    "category": "Frameworks"
+  },
+  "ember.js": {
+    "title": "Learn Ember.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=ember.js",
+    "category": "Frameworks"
+  },
+  "backbone.js": {
+    "title": "Learn Backbone.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=backbone.js",
+    "category": "Frameworks"
+  },
+  "struts": {
+    "title": "Learn Struts",
+    "url": "https://www.freecodecamp.org/news/search/?query=struts",
+    "category": "Frameworks"
+  },
+  "fastify": {
+    "title": "Learn Fastify",
+    "url": "https://www.freecodecamp.org/news/search/?query=fastify",
+    "category": "Frameworks"
+  },
+  "koa.js": {
+    "title": "Learn Koa.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=koa.js",
+    "category": "Frameworks"
+  },
+  "phoenix framework": {
+    "title": "Learn Phoenix Framework",
+    "url": "https://www.freecodecamp.org/news/search/?query=phoenix+framework",
+    "category": "Frameworks"
+  },
+  "symfony": {
+    "title": "Learn Symfony",
+    "url": "https://www.freecodecamp.org/news/search/?query=symfony",
+    "category": "Frameworks"
+  },
+  "codeigniter": {
+    "title": "Learn Codeigniter",
+    "url": "https://www.freecodecamp.org/news/search/?query=codeigniter",
+    "category": "Frameworks"
+  },
+  "cakephp": {
+    "title": "Learn Cakephp",
+    "url": "https://www.freecodecamp.org/news/search/?query=cakephp",
+    "category": "Frameworks"
+  },
+  "meteor.js": {
+    "title": "Learn Meteor.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=meteor.js",
+    "category": "Frameworks"
+  },
+  "gatsby": {
+    "title": "Learn Gatsby",
+    "url": "https://www.freecodecamp.org/news/search/?query=gatsby",
+    "category": "Frameworks"
+  },
+  "remix": {
+    "title": "Learn Remix",
+    "url": "https://www.freecodecamp.org/news/search/?query=remix",
+    "category": "Frameworks"
+  },
+  "astro": {
+    "title": "Learn Astro",
+    "url": "https://www.freecodecamp.org/news/search/?query=astro",
+    "category": "Frameworks"
+  },
+  "solidjs": {
+    "title": "Learn Solidjs",
+    "url": "https://www.freecodecamp.org/news/search/?query=solidjs",
+    "category": "Frameworks"
+  },
+  "alpine.js": {
+    "title": "Learn Alpine.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=alpine.js",
+    "category": "Frameworks"
+  },
+  "d3.js": {
+    "title": "Learn D3.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=d3.js",
+    "category": "Frameworks"
+  },
+  "three.js": {
+    "title": "Learn Three.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=three.js",
+    "category": "Frameworks"
+  },
+  "chart.js": {
+    "title": "Learn Chart.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=chart.js",
+    "category": "Frameworks"
+  },
+  "p5.js": {
+    "title": "Learn P5.Js",
+    "url": "https://www.freecodecamp.org/news/search/?query=p5.js",
+    "category": "Frameworks"
+  },
+  "quarkus": {
+    "title": "Learn Quarkus",
+    "url": "https://www.freecodecamp.org/news/search/?query=quarkus",
+    "category": "Frameworks"
+  },
+  "micronaut": {
+    "title": "Learn Micronaut",
+    "url": "https://www.freecodecamp.org/news/search/?query=micronaut",
+    "category": "Frameworks"
+  },
+  "play framework": {
+    "title": "Learn Play Framework",
+    "url": "https://www.freecodecamp.org/news/search/?query=play+framework",
+    "category": "Frameworks"
+  },
+  "vapor": {
+    "title": "Learn Vapor",
+    "url": "https://www.freecodecamp.org/news/search/?query=vapor",
+    "category": "Frameworks"
+  },
+  "ktor": {
+    "title": "Learn Ktor",
+    "url": "https://www.freecodecamp.org/news/search/?query=ktor",
+    "category": "Frameworks"
+  },
+  "blazor": {
+    "title": "Learn Blazor",
+    "url": "https://www.freecodecamp.org/news/search/?query=blazor",
+    "category": "Frameworks"
+  },
+  "xamarin": {
+    "title": "Learn Xamarin",
+    "url": "https://www.freecodecamp.org/news/search/?query=xamarin",
+    "category": "Frameworks"
+  },
+  "ionic": {
+    "title": "Learn Ionic",
+    "url": "https://www.freecodecamp.org/news/search/?query=ionic",
+    "category": "Frameworks"
+  },
+  "electron": {
+    "title": "Learn Electron",
+    "url": "https://www.freecodecamp.org/news/search/?query=electron",
+    "category": "Frameworks"
+  },
+  "tauri": {
+    "title": "Learn Tauri",
+    "url": "https://www.freecodecamp.org/news/search/?query=tauri",
+    "category": "Frameworks"
+  },
+  "apollo client": {
+    "title": "Learn Apollo Client",
+    "url": "https://www.freecodecamp.org/news/search/?query=apollo+client",
+    "category": "Frameworks"
+  },
+  "redux toolkit": {
+    "title": "Learn Redux Toolkit",
+    "url": "https://www.freecodecamp.org/news/search/?query=redux+toolkit",
+    "category": "Frameworks"
+  },
+  "mobx": {
+    "title": "Learn Mobx",
+    "url": "https://www.freecodecamp.org/news/search/?query=mobx",
+    "category": "Frameworks"
+  },
+  "zustand": {
+    "title": "Learn Zustand",
+    "url": "https://www.freecodecamp.org/news/search/?query=zustand",
+    "category": "Frameworks"
+  },
+  "recoil": {
+    "title": "Learn Recoil",
+    "url": "https://www.freecodecamp.org/news/search/?query=recoil",
+    "category": "Frameworks"
+  },
+  "mysql": {
+    "title": "MySQL Tutorial",
+    "url": "https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/",
+    "category": "Databases"
+  },
+  "postgresql": {
+    "title": "PostgreSQL Tutorial",
+    "url": "https://www.postgresqltutorial.com/",
+    "category": "Databases"
+  },
+  "mongodb": {
+    "title": "MongoDB Getting Started",
+    "url": "https://www.mongodb.com/docs/manual/tutorial/getting-started/",
+    "category": "Databases"
+  },
+  "sqlite": {
+    "title": "Learn Sqlite",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "oracle database": {
+    "title": "Learn Oracle Database",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "microsoft sql server": {
+    "title": "Learn Microsoft Sql Server",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "redis": {
+    "title": "Redis Getting Started",
+    "url": "https://redis.io/docs/latest/develop/get-started/",
+    "category": "Databases"
+  },
+  "cassandra": {
+    "title": "Learn Cassandra",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "dynamodb": {
+    "title": "Learn Dynamodb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "firebase": {
+    "title": "Learn Firebase",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "elasticsearch": {
+    "title": "Learn Elasticsearch",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "mariadb": {
+    "title": "Learn Mariadb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "couchdb": {
+    "title": "Learn Couchdb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "neo4j": {
+    "title": "Learn Neo4J",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "supabase": {
+    "title": "Learn Supabase",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "snowflake": {
+    "title": "Learn Snowflake",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "bigquery": {
+    "title": "Learn Bigquery",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "redshift": {
+    "title": "Learn Redshift",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "cockroachdb": {
+    "title": "Learn Cockroachdb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "influxdb": {
+    "title": "Learn Influxdb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "amazon aurora": {
+    "title": "Learn Amazon Aurora",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "google cloud sql": {
+    "title": "Learn Google Cloud Sql",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "couchbase": {
+    "title": "Learn Couchbase",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "realm": {
+    "title": "Learn Realm",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "rethinkdb": {
+    "title": "Learn Rethinkdb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "arangodb": {
+    "title": "Learn Arangodb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "timescaledb": {
+    "title": "Learn Timescaledb",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "clickhouse": {
+    "title": "Learn Clickhouse",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "presto": {
+    "title": "Learn Presto",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "hive": {
+    "title": "Learn Hive",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "impala": {
+    "title": "Learn Impala",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "teradata": {
+    "title": "Learn Teradata",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "db2": {
+    "title": "Learn Db2",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "sybase": {
+    "title": "Learn Sybase",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "h2 database": {
+    "title": "Learn H2 Database",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "faiss": {
+    "title": "Learn Faiss",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "pinecone": {
+    "title": "Learn Pinecone",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "weaviate": {
+    "title": "Learn Weaviate",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "chroma": {
+    "title": "Learn Chroma",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "milvus": {
+    "title": "Learn Milvus",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "qdrant": {
+    "title": "Learn Qdrant",
+    "url": "https://www.w3schools.com/",
+    "category": "Databases"
+  },
+  "aws": {
+    "title": "AWS Getting Started Hub",
+    "url": "https://aws.amazon.com/getting-started/",
+    "category": "Cloud and DevOps"
+  },
+  "amazon web services": {
+    "title": "AWS Getting Started Hub",
+    "url": "https://aws.amazon.com/getting-started/",
+    "category": "Cloud and DevOps"
+  },
+  "azure": {
+    "title": "Microsoft Learn: Azure",
+    "url": "https://learn.microsoft.com/en-us/training/azure/",
+    "category": "Cloud and DevOps"
+  },
+  "google cloud platform": {
+    "title": "Google Cloud Getting Started",
+    "url": "https://cloud.google.com/docs/get-started",
+    "category": "Cloud and DevOps"
+  },
+  "gcp": {
+    "title": "Google Cloud Getting Started",
+    "url": "https://cloud.google.com/docs/get-started",
+    "category": "Cloud and DevOps"
+  },
+  "docker": {
+    "title": "Docker Get Started Guide",
+    "url": "https://docs.docker.com/get-started/",
+    "category": "Cloud and DevOps"
+  },
+  "kubernetes": {
+    "title": "Kubernetes Official Tutorials",
+    "url": "https://kubernetes.io/docs/tutorials/",
+    "category": "Cloud and DevOps"
+  },
+  "terraform": {
+    "title": "HashiCorp Terraform Tutorials",
+    "url": "https://developer.hashicorp.com/terraform/tutorials",
+    "category": "Cloud and DevOps"
+  },
+  "ansible": {
+    "title": "Learn Ansible",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "jenkins": {
+    "title": "Jenkins Official Tutorials",
+    "url": "https://www.jenkins.io/doc/tutorials/",
+    "category": "Cloud and DevOps"
+  },
+  "ci/cd": {
+    "title": "Learn Ci/Cd",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "github actions": {
+    "title": "Learn Github Actions",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "gitlab ci": {
+    "title": "Learn Gitlab Ci",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "circleci": {
+    "title": "Learn Circleci",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "cloudformation": {
+    "title": "Learn Cloudformation",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "helm": {
+    "title": "Learn Helm",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "prometheus": {
+    "title": "Learn Prometheus",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "grafana": {
+    "title": "Learn Grafana",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "nginx": {
+    "title": "Learn Nginx",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "apache": {
+    "title": "Learn Apache",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "linux administration": {
+    "title": "Linux Journey",
+    "url": "https://linuxjourney.com/",
+    "category": "Cloud and DevOps"
+  },
+  "serverless": {
+    "title": "Learn Serverless",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "lambda": {
+    "title": "Learn Lambda",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "ec2": {
+    "title": "Learn Ec2",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "s3": {
+    "title": "Learn S3",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "cloud functions": {
+    "title": "Learn Cloud Functions",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "openshift": {
+    "title": "Learn Openshift",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "vagrant": {
+    "title": "Learn Vagrant",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "chef": {
+    "title": "Learn Chef",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "puppet": {
+    "title": "Learn Puppet",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "istio": {
+    "title": "Learn Istio",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "argo cd": {
+    "title": "Learn Argo Cd",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "microsoft azure devops": {
+    "title": "Learn Microsoft Azure Devops",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "aws lambda": {
+    "title": "Learn Aws Lambda",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "aws ecs": {
+    "title": "Learn Aws Ecs",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "aws eks": {
+    "title": "Learn Aws Eks",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "azure functions": {
+    "title": "Learn Azure Functions",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "azure kubernetes service": {
+    "title": "Learn Azure Kubernetes Service",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "google kubernetes engine": {
+    "title": "Learn Google Kubernetes Engine",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "cloud run": {
+    "title": "Learn Cloud Run",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "digitalocean": {
+    "title": "Learn Digitalocean",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "heroku": {
+    "title": "Learn Heroku",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "vercel": {
+    "title": "Learn Vercel",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "netlify": {
+    "title": "Learn Netlify",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "render": {
+    "title": "Learn Render",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "packer": {
+    "title": "Learn Packer",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "spinnaker": {
+    "title": "Learn Spinnaker",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "argo workflows": {
+    "title": "Learn Argo Workflows",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "flux cd": {
+    "title": "Learn Flux Cd",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "service mesh": {
+    "title": "Learn Service Mesh",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "envoy proxy": {
+    "title": "Learn Envoy Proxy",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "consul": {
+    "title": "Learn Consul",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "vault": {
+    "title": "Learn Vault",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "datadog": {
+    "title": "Learn Datadog",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "new relic": {
+    "title": "Learn New Relic",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "splunk": {
+    "title": "Learn Splunk",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "elk stack": {
+    "title": "Learn Elk Stack",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "logstash": {
+    "title": "Learn Logstash",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "kibana": {
+    "title": "Learn Kibana",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "fluentd": {
+    "title": "Learn Fluentd",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "site reliability engineering": {
+    "title": "Learn Site Reliability Engineering",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "sre": {
+    "title": "Learn Sre",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "infrastructure as code": {
+    "title": "Learn Infrastructure As Code",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "gitops": {
+    "title": "Learn Gitops",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "blue green deployment": {
+    "title": "Learn Blue Green Deployment",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "canary deployment": {
+    "title": "Learn Canary Deployment",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "load testing": {
+    "title": "Learn Load Testing",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "capacity planning": {
+    "title": "Learn Capacity Planning",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "disaster recovery": {
+    "title": "Learn Disaster Recovery",
+    "url": "https://www.qwiklabs.com/",
+    "category": "Cloud and DevOps"
+  },
+  "git": {
+    "title": "Pro Git Book",
+    "url": "https://git-scm.com/book/en/v2",
+    "category": "Tools"
+  },
+  "github": {
+    "title": "GitHub Getting Started Docs",
+    "url": "https://docs.github.com/en/get-started",
+    "category": "Tools"
+  },
+  "gitlab": {
+    "title": "Learn Gitlab",
+    "url": "https://www.youtube.com/results?search_query=gitlab+tutorial",
+    "category": "Tools"
+  },
+  "bitbucket": {
+    "title": "Learn Bitbucket",
+    "url": "https://www.youtube.com/results?search_query=bitbucket+tutorial",
+    "category": "Tools"
+  },
+  "jira": {
+    "title": "Learn Jira",
+    "url": "https://www.youtube.com/results?search_query=jira+tutorial",
+    "category": "Tools"
+  },
+  "confluence": {
+    "title": "Learn Confluence",
+    "url": "https://www.youtube.com/results?search_query=confluence+tutorial",
+    "category": "Tools"
+  },
+  "postman": {
+    "title": "Learn Postman",
+    "url": "https://www.youtube.com/results?search_query=postman+tutorial",
+    "category": "Tools"
+  },
+  "docker compose": {
+    "title": "Docker Compose Getting Started",
+    "url": "https://docs.docker.com/compose/gettingstarted/",
+    "category": "Tools"
+  },
+  "vs code": {
+    "title": "Learn Vs Code",
+    "url": "https://www.youtube.com/results?search_query=vs+code+tutorial",
+    "category": "Tools"
+  },
+  "intellij idea": {
+    "title": "Learn Intellij Idea",
+    "url": "https://www.youtube.com/results?search_query=intellij+idea+tutorial",
+    "category": "Tools"
+  },
+  "eclipse": {
+    "title": "Learn Eclipse",
+    "url": "https://www.youtube.com/results?search_query=eclipse+tutorial",
+    "category": "Tools"
+  },
+  "figma": {
+    "title": "Learn Figma",
+    "url": "https://www.youtube.com/results?search_query=figma+tutorial",
+    "category": "Tools"
+  },
+  "slack": {
+    "title": "Learn Slack",
+    "url": "https://www.youtube.com/results?search_query=slack+tutorial",
+    "category": "Tools"
+  },
+  "trello": {
+    "title": "Learn Trello",
+    "url": "https://www.youtube.com/results?search_query=trello+tutorial",
+    "category": "Tools"
+  },
+  "notion": {
+    "title": "Learn Notion",
+    "url": "https://www.youtube.com/results?search_query=notion+tutorial",
+    "category": "Tools"
+  },
+  "swagger": {
+    "title": "Learn Swagger",
+    "url": "https://www.youtube.com/results?search_query=swagger+tutorial",
+    "category": "Tools"
+  },
+  "webpack": {
+    "title": "Learn Webpack",
+    "url": "https://www.youtube.com/results?search_query=webpack+tutorial",
+    "category": "Tools"
+  },
+  "babel": {
+    "title": "Learn Babel",
+    "url": "https://www.youtube.com/results?search_query=babel+tutorial",
+    "category": "Tools"
+  },
+  "npm": {
+    "title": "Learn Npm",
+    "url": "https://www.youtube.com/results?search_query=npm+tutorial",
+    "category": "Tools"
+  },
+  "yarn": {
+    "title": "Learn Yarn",
+    "url": "https://www.youtube.com/results?search_query=yarn+tutorial",
+    "category": "Tools"
+  },
+  "maven": {
+    "title": "Learn Maven",
+    "url": "https://www.youtube.com/results?search_query=maven+tutorial",
+    "category": "Tools"
+  },
+  "gradle": {
+    "title": "Learn Gradle",
+    "url": "https://www.youtube.com/results?search_query=gradle+tutorial",
+    "category": "Tools"
+  },
+  "vite": {
+    "title": "Learn Vite",
+    "url": "https://www.youtube.com/results?search_query=vite+tutorial",
+    "category": "Tools"
+  },
+  "selenium": {
+    "title": "Learn Selenium",
+    "url": "https://www.youtube.com/results?search_query=selenium+tutorial",
+    "category": "Tools"
+  },
+  "cypress": {
+    "title": "Learn Cypress",
+    "url": "https://www.youtube.com/results?search_query=cypress+tutorial",
+    "category": "Tools"
+  },
+  "junit": {
+    "title": "Learn Junit",
+    "url": "https://www.youtube.com/results?search_query=junit+tutorial",
+    "category": "Tools"
+  },
+  "pytest": {
+    "title": "Learn Pytest",
+    "url": "https://www.youtube.com/results?search_query=pytest+tutorial",
+    "category": "Tools"
+  },
+  "jest": {
+    "title": "Learn Jest",
+    "url": "https://www.youtube.com/results?search_query=jest+tutorial",
+    "category": "Tools"
+  },
+  "mocha": {
+    "title": "Learn Mocha",
+    "url": "https://www.youtube.com/results?search_query=mocha+tutorial",
+    "category": "Tools"
+  },
+  "sonarqube": {
+    "title": "Learn Sonarqube",
+    "url": "https://www.youtube.com/results?search_query=sonarqube+tutorial",
+    "category": "Tools"
+  },
+  "kafka": {
+    "title": "Apache Kafka Quickstart",
+    "url": "https://kafka.apache.org/quickstart",
+    "category": "Tools"
+  },
+  "rabbitmq": {
+    "title": "Learn Rabbitmq",
+    "url": "https://www.youtube.com/results?search_query=rabbitmq+tutorial",
+    "category": "Tools"
+  },
+  "apache airflow": {
+    "title": "Learn Apache Airflow",
+    "url": "https://www.youtube.com/results?search_query=apache+airflow+tutorial",
+    "category": "Tools"
+  },
+  "tableau": {
+    "title": "Tableau Free Training",
+    "url": "https://www.tableau.com/learn/training",
+    "category": "Tools"
+  },
+  "power bi": {
+    "title": "Microsoft Power BI Learn",
+    "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/",
+    "category": "Tools"
+  },
+  "excel": {
+    "title": "Learn Excel",
+    "url": "https://www.youtube.com/results?search_query=excel+tutorial",
+    "category": "Tools"
+  },
+  "linux": {
+    "title": "Linux Journey",
+    "url": "https://linuxjourney.com/",
+    "category": "Tools"
+  },
+  "unix": {
+    "title": "Learn Unix",
+    "url": "https://www.youtube.com/results?search_query=unix+tutorial",
+    "category": "Tools"
+  },
+  "vim": {
+    "title": "Learn Vim",
+    "url": "https://www.youtube.com/results?search_query=vim+tutorial",
+    "category": "Tools"
+  },
+  "azure devops": {
+    "title": "Learn Azure Devops",
+    "url": "https://www.youtube.com/results?search_query=azure+devops+tutorial",
+    "category": "Tools"
+  },
+  "clickup": {
+    "title": "Learn Clickup",
+    "url": "https://www.youtube.com/results?search_query=clickup+tutorial",
+    "category": "Tools"
+  },
+  "asana": {
+    "title": "Learn Asana",
+    "url": "https://www.youtube.com/results?search_query=asana+tutorial",
+    "category": "Tools"
+  },
+  "monday.com": {
+    "title": "Learn Monday.Com",
+    "url": "https://www.youtube.com/results?search_query=monday.com+tutorial",
+    "category": "Tools"
+  },
+  "miro": {
+    "title": "Learn Miro",
+    "url": "https://www.youtube.com/results?search_query=miro+tutorial",
+    "category": "Tools"
+  },
+  "lucidchart": {
+    "title": "Learn Lucidchart",
+    "url": "https://www.youtube.com/results?search_query=lucidchart+tutorial",
+    "category": "Tools"
+  },
+  "draw.io": {
+    "title": "Learn Draw.Io",
+    "url": "https://www.youtube.com/results?search_query=draw.io+tutorial",
+    "category": "Tools"
+  },
+  "zoom api": {
+    "title": "Learn Zoom Api",
+    "url": "https://www.youtube.com/results?search_query=zoom+api+tutorial",
+    "category": "Tools"
+  },
+  "grpc tools": {
+    "title": "Learn Grpc Tools",
+    "url": "https://www.youtube.com/results?search_query=grpc+tools+tutorial",
+    "category": "Tools"
+  },
+  "insomnia": {
+    "title": "Learn Insomnia",
+    "url": "https://www.youtube.com/results?search_query=insomnia+tutorial",
+    "category": "Tools"
+  },
+  "charles proxy": {
+    "title": "Learn Charles Proxy",
+    "url": "https://www.youtube.com/results?search_query=charles+proxy+tutorial",
+    "category": "Tools"
+  },
+  "wireshark": {
+    "title": "Learn Wireshark",
+    "url": "https://www.youtube.com/results?search_query=wireshark+tutorial",
+    "category": "Tools"
+  },
+  "fiddler": {
+    "title": "Learn Fiddler",
+    "url": "https://www.youtube.com/results?search_query=fiddler+tutorial",
+    "category": "Tools"
+  },
+  "jmeter": {
+    "title": "Learn Jmeter",
+    "url": "https://www.youtube.com/results?search_query=jmeter+tutorial",
+    "category": "Tools"
+  },
+  "locust": {
+    "title": "Learn Locust",
+    "url": "https://www.youtube.com/results?search_query=locust+tutorial",
+    "category": "Tools"
+  },
+  "gatling": {
+    "title": "Learn Gatling",
+    "url": "https://www.youtube.com/results?search_query=gatling+tutorial",
+    "category": "Tools"
+  },
+  "sourcetree": {
+    "title": "Learn Sourcetree",
+    "url": "https://www.youtube.com/results?search_query=sourcetree+tutorial",
+    "category": "Tools"
+  },
+  "tortoisesvn": {
+    "title": "Learn Tortoisesvn",
+    "url": "https://www.youtube.com/results?search_query=tortoisesvn+tutorial",
+    "category": "Tools"
+  },
+  "perforce": {
+    "title": "Learn Perforce",
+    "url": "https://www.youtube.com/results?search_query=perforce+tutorial",
+    "category": "Tools"
+  },
+  "subversion": {
+    "title": "Learn Subversion",
+    "url": "https://www.youtube.com/results?search_query=subversion+tutorial",
+    "category": "Tools"
+  },
+  "svn": {
+    "title": "Learn Svn",
+    "url": "https://www.youtube.com/results?search_query=svn+tutorial",
+    "category": "Tools"
+  },
+  "make": {
+    "title": "Learn Make",
+    "url": "https://www.youtube.com/results?search_query=make+tutorial",
+    "category": "Tools"
+  },
+  "cmake": {
+    "title": "Learn Cmake",
+    "url": "https://www.youtube.com/results?search_query=cmake+tutorial",
+    "category": "Tools"
+  },
+  "bazel": {
+    "title": "Learn Bazel",
+    "url": "https://www.youtube.com/results?search_query=bazel+tutorial",
+    "category": "Tools"
+  },
+  "nx monorepo": {
+    "title": "Learn Nx Monorepo",
+    "url": "https://www.youtube.com/results?search_query=nx+monorepo+tutorial",
+    "category": "Tools"
+  },
+  "storybook": {
+    "title": "Learn Storybook",
+    "url": "https://www.youtube.com/results?search_query=storybook+tutorial",
+    "category": "Tools"
+  },
+  "eslint": {
+    "title": "Learn Eslint",
+    "url": "https://www.youtube.com/results?search_query=eslint+tutorial",
+    "category": "Tools"
+  },
+  "prettier": {
+    "title": "Learn Prettier",
+    "url": "https://www.youtube.com/results?search_query=prettier+tutorial",
+    "category": "Tools"
+  },
+  "husky": {
+    "title": "Learn Husky",
+    "url": "https://www.youtube.com/results?search_query=husky+tutorial",
+    "category": "Tools"
+  },
+  "commitizen": {
+    "title": "Learn Commitizen",
+    "url": "https://www.youtube.com/results?search_query=commitizen+tutorial",
+    "category": "Tools"
+  },
+  "semantic release": {
+    "title": "Learn Semantic Release",
+    "url": "https://www.youtube.com/results?search_query=semantic+release+tutorial",
+    "category": "Tools"
+  },
+  "docsify": {
+    "title": "Learn Docsify",
+    "url": "https://www.youtube.com/results?search_query=docsify+tutorial",
+    "category": "Tools"
+  },
+  "sphinx": {
+    "title": "Learn Sphinx",
+    "url": "https://www.youtube.com/results?search_query=sphinx+tutorial",
+    "category": "Tools"
+  },
+  "read the docs": {
+    "title": "Learn Read The Docs",
+    "url": "https://www.youtube.com/results?search_query=read+the+docs+tutorial",
+    "category": "Tools"
+  },
+  "postman newman": {
+    "title": "Learn Postman Newman",
+    "url": "https://www.youtube.com/results?search_query=postman+newman+tutorial",
+    "category": "Tools"
+  },
+  "soapui": {
+    "title": "Learn Soapui",
+    "url": "https://www.youtube.com/results?search_query=soapui+tutorial",
+    "category": "Tools"
+  },
+  "burp suite": {
+    "title": "Learn Burp Suite",
+    "url": "https://www.youtube.com/results?search_query=burp+suite+tutorial",
+    "category": "Tools"
+  },
+  "nmap": {
+    "title": "Learn Nmap",
+    "url": "https://www.youtube.com/results?search_query=nmap+tutorial",
+    "category": "Tools"
+  },
+  "metasploit": {
+    "title": "Learn Metasploit",
+    "url": "https://www.youtube.com/results?search_query=metasploit+tutorial",
+    "category": "Tools"
+  },
+  "machine learning": {
+    "title": "Andrew Ng's Machine Learning Specialization",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "category": "AI and Machine Learning"
+  },
+  "deep learning": {
+    "title": "DeepLearning.AI Deep Learning Specialization",
+    "url": "https://www.deeplearning.ai/courses/deep-learning-specialization/",
+    "category": "AI and Machine Learning"
+  },
+  "natural language processing": {
+    "title": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course",
+    "category": "AI and Machine Learning"
+  },
+  "nlp": {
+    "title": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course",
+    "category": "AI and Machine Learning"
+  },
+  "computer vision": {
+    "title": "PyImageSearch: Computer Vision",
+    "url": "https://www.pyimagesearch.com/start-here/",
+    "category": "AI and Machine Learning"
+  },
+  "tensorflow": {
+    "title": "TensorFlow Official Tutorials",
+    "url": "https://www.tensorflow.org/tutorials",
+    "category": "AI and Machine Learning"
+  },
+  "pytorch": {
+    "title": "PyTorch Official Tutorials",
+    "url": "https://pytorch.org/tutorials/",
+    "category": "AI and Machine Learning"
+  },
+  "keras": {
+    "title": "Keras Getting Started",
+    "url": "https://keras.io/getting_started/",
+    "category": "AI and Machine Learning"
+  },
+  "scikit-learn": {
+    "title": "Scikit-learn Official Tutorials",
+    "url": "https://scikit-learn.org/stable/tutorial/index.html",
+    "category": "AI and Machine Learning"
+  },
+  "opencv": {
+    "title": "OpenCV Official Tutorials",
+    "url": "https://docs.opencv.org/master/d9/df8/tutorial_root.html",
+    "category": "AI and Machine Learning"
+  },
+  "pandas": {
+    "title": "Pandas Getting Started",
+    "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+    "category": "AI and Machine Learning"
+  },
+  "numpy": {
+    "title": "NumPy Quickstart",
+    "url": "https://numpy.org/doc/stable/user/quickstart.html",
+    "category": "AI and Machine Learning"
+  },
+  "matplotlib": {
+    "title": "Learn Matplotlib",
+    "url": "https://www.coursera.org/search?query=matplotlib",
+    "category": "AI and Machine Learning"
+  },
+  "seaborn": {
+    "title": "Learn Seaborn",
+    "url": "https://www.coursera.org/search?query=seaborn",
+    "category": "AI and Machine Learning"
+  },
+  "spacy": {
+    "title": "spaCy 101",
+    "url": "https://spacy.io/usage/spacy-101",
+    "category": "AI and Machine Learning"
+  },
+  "nltk": {
+    "title": "NLTK Book",
+    "url": "https://www.nltk.org/book/",
+    "category": "AI and Machine Learning"
+  },
+  "hugging face": {
+    "title": "Hugging Face Learn Hub",
+    "url": "https://huggingface.co/learn",
+    "category": "AI and Machine Learning"
+  },
+  "transformers": {
+    "title": "Hugging Face Transformers Docs",
+    "url": "https://huggingface.co/docs/transformers/index",
+    "category": "AI and Machine Learning"
+  },
+  "llm": {
+    "title": "DeepLearning.AI Short Courses on LLMs",
+    "url": "https://www.deeplearning.ai/short-courses/",
+    "category": "AI and Machine Learning"
+  },
+  "large language models": {
+    "title": "DeepLearning.AI Short Courses on LLMs",
+    "url": "https://www.deeplearning.ai/short-courses/",
+    "category": "AI and Machine Learning"
+  },
+  "generative ai": {
+    "title": "Generative AI with LLMs (DeepLearning.AI)",
+    "url": "https://www.deeplearning.ai/courses/generative-ai-with-llms/",
+    "category": "AI and Machine Learning"
+  },
+  "reinforcement learning": {
+    "title": "Learn Reinforcement Learning",
+    "url": "https://www.coursera.org/search?query=reinforcement+learning",
+    "category": "AI and Machine Learning"
+  },
+  "neural networks": {
+    "title": "Learn Neural Networks",
+    "url": "https://www.coursera.org/search?query=neural+networks",
+    "category": "AI and Machine Learning"
+  },
+  "cnn": {
+    "title": "Learn Cnn",
+    "url": "https://www.coursera.org/search?query=cnn",
+    "category": "AI and Machine Learning"
+  },
+  "rnn": {
+    "title": "Learn Rnn",
+    "url": "https://www.coursera.org/search?query=rnn",
+    "category": "AI and Machine Learning"
+  },
+  "lstm": {
+    "title": "Learn Lstm",
+    "url": "https://www.coursera.org/search?query=lstm",
+    "category": "AI and Machine Learning"
+  },
+  "gan": {
+    "title": "Learn Gan",
+    "url": "https://www.coursera.org/search?query=gan",
+    "category": "AI and Machine Learning"
+  },
+  "xgboost": {
+    "title": "Learn Xgboost",
+    "url": "https://www.coursera.org/search?query=xgboost",
+    "category": "AI and Machine Learning"
+  },
+  "lightgbm": {
+    "title": "Learn Lightgbm",
+    "url": "https://www.coursera.org/search?query=lightgbm",
+    "category": "AI and Machine Learning"
+  },
+  "data preprocessing": {
+    "title": "Learn Data Preprocessing",
+    "url": "https://www.coursera.org/search?query=data+preprocessing",
+    "category": "AI and Machine Learning"
+  },
+  "feature engineering": {
+    "title": "Learn Feature Engineering",
+    "url": "https://www.coursera.org/search?query=feature+engineering",
+    "category": "AI and Machine Learning"
+  },
+  "model deployment": {
+    "title": "Learn Model Deployment",
+    "url": "https://www.coursera.org/search?query=model+deployment",
+    "category": "AI and Machine Learning"
+  },
+  "mlops": {
+    "title": "Learn Mlops",
+    "url": "https://www.coursera.org/search?query=mlops",
+    "category": "AI and Machine Learning"
+  },
+  "langchain": {
+    "title": "Learn Langchain",
+    "url": "https://www.coursera.org/search?query=langchain",
+    "category": "AI and Machine Learning"
+  },
+  "openai api": {
+    "title": "Learn Openai Api",
+    "url": "https://www.coursera.org/search?query=openai+api",
+    "category": "AI and Machine Learning"
+  },
+  "recommendation systems": {
+    "title": "Learn Recommendation Systems",
+    "url": "https://www.coursera.org/search?query=recommendation+systems",
+    "category": "AI and Machine Learning"
+  },
+  "time series analysis": {
+    "title": "Learn Time Series Analysis",
+    "url": "https://www.coursera.org/search?query=time+series+analysis",
+    "category": "AI and Machine Learning"
+  },
+  "image processing": {
+    "title": "Learn Image Processing",
+    "url": "https://www.coursera.org/search?query=image+processing",
+    "category": "AI and Machine Learning"
+  },
+  "speech recognition": {
+    "title": "Learn Speech Recognition",
+    "url": "https://www.coursera.org/search?query=speech+recognition",
+    "category": "AI and Machine Learning"
+  },
+  "prompt engineering": {
+    "title": "Learn Prompt Engineering",
+    "url": "https://www.coursera.org/search?query=prompt+engineering",
+    "category": "AI and Machine Learning"
+  },
+  "vector databases": {
+    "title": "Learn Vector Databases",
+    "url": "https://www.coursera.org/search?query=vector+databases",
+    "category": "AI and Machine Learning"
+  },
+  "rag": {
+    "title": "Learn Rag",
+    "url": "https://www.coursera.org/search?query=rag",
+    "category": "AI and Machine Learning"
+  },
+  "retrieval augmented generation": {
+    "title": "Learn Retrieval Augmented Generation",
+    "url": "https://www.coursera.org/search?query=retrieval+augmented+generation",
+    "category": "AI and Machine Learning"
+  },
+  "yolo": {
+    "title": "Learn Yolo",
+    "url": "https://www.coursera.org/search?query=yolo",
+    "category": "AI and Machine Learning"
+  },
+  "object detection": {
+    "title": "Learn Object Detection",
+    "url": "https://www.coursera.org/search?query=object+detection",
+    "category": "AI and Machine Learning"
+  },
+  "image classification": {
+    "title": "Learn Image Classification",
+    "url": "https://www.coursera.org/search?query=image+classification",
+    "category": "AI and Machine Learning"
+  },
+  "sentiment analysis": {
+    "title": "Learn Sentiment Analysis",
+    "url": "https://www.coursera.org/search?query=sentiment+analysis",
+    "category": "AI and Machine Learning"
+  },
+  "chatbot development": {
+    "title": "Learn Chatbot Development",
+    "url": "https://www.coursera.org/search?query=chatbot+development",
+    "category": "AI and Machine Learning"
+  },
+  "gpt models": {
+    "title": "Learn Gpt Models",
+    "url": "https://www.coursera.org/search?query=gpt+models",
+    "category": "AI and Machine Learning"
+  },
+  "bert": {
+    "title": "Learn Bert",
+    "url": "https://www.coursera.org/search?query=bert",
+    "category": "AI and Machine Learning"
+  },
+  "word2vec": {
+    "title": "Learn Word2Vec",
+    "url": "https://www.coursera.org/search?query=word2vec",
+    "category": "AI and Machine Learning"
+  },
+  "glove embeddings": {
+    "title": "Learn Glove Embeddings",
+    "url": "https://www.coursera.org/search?query=glove+embeddings",
+    "category": "AI and Machine Learning"
+  },
+  "autoencoders": {
+    "title": "Learn Autoencoders",
+    "url": "https://www.coursera.org/search?query=autoencoders",
+    "category": "AI and Machine Learning"
+  },
+  "transfer learning": {
+    "title": "Learn Transfer Learning",
+    "url": "https://www.coursera.org/search?query=transfer+learning",
+    "category": "AI and Machine Learning"
+  },
+  "model fine-tuning": {
+    "title": "Learn Model Fine-Tuning",
+    "url": "https://www.coursera.org/search?query=model+fine-tuning",
+    "category": "AI and Machine Learning"
+  },
+  "hyperparameter tuning": {
+    "title": "Learn Hyperparameter Tuning",
+    "url": "https://www.coursera.org/search?query=hyperparameter+tuning",
+    "category": "AI and Machine Learning"
+  },
+  "cross validation": {
+    "title": "Learn Cross Validation",
+    "url": "https://www.coursera.org/search?query=cross+validation",
+    "category": "AI and Machine Learning"
+  },
+  "ensemble learning": {
+    "title": "Learn Ensemble Learning",
+    "url": "https://www.coursera.org/search?query=ensemble+learning",
+    "category": "AI and Machine Learning"
+  },
+  "random forest": {
+    "title": "Learn Random Forest",
+    "url": "https://www.coursera.org/search?query=random+forest",
+    "category": "AI and Machine Learning"
+  },
+  "gradient boosting": {
+    "title": "Learn Gradient Boosting",
+    "url": "https://www.coursera.org/search?query=gradient+boosting",
+    "category": "AI and Machine Learning"
+  },
+  "support vector machines": {
+    "title": "Learn Support Vector Machines",
+    "url": "https://www.coursera.org/search?query=support+vector+machines",
+    "category": "AI and Machine Learning"
+  },
+  "svm": {
+    "title": "Learn Svm",
+    "url": "https://www.coursera.org/search?query=svm",
+    "category": "AI and Machine Learning"
+  },
+  "k-means clustering": {
+    "title": "Learn K-Means Clustering",
+    "url": "https://www.coursera.org/search?query=k-means+clustering",
+    "category": "AI and Machine Learning"
+  },
+  "decision trees": {
+    "title": "Learn Decision Trees",
+    "url": "https://www.coursera.org/search?query=decision+trees",
+    "category": "AI and Machine Learning"
+  },
+  "bayesian methods": {
+    "title": "Learn Bayesian Methods",
+    "url": "https://www.coursera.org/search?query=bayesian+methods",
+    "category": "AI and Machine Learning"
+  },
+  "markov models": {
+    "title": "Learn Markov Models",
+    "url": "https://www.coursera.org/search?query=markov+models",
+    "category": "AI and Machine Learning"
+  },
+  "a/b testing": {
+    "title": "Learn A/B Testing",
+    "url": "https://www.coursera.org/search?query=a/b+testing",
+    "category": "AI and Machine Learning"
+  },
+  "anomaly detection": {
+    "title": "Learn Anomaly Detection",
+    "url": "https://www.coursera.org/search?query=anomaly+detection",
+    "category": "AI and Machine Learning"
+  },
+  "predictive modeling": {
+    "title": "Learn Predictive Modeling",
+    "url": "https://www.coursera.org/search?query=predictive+modeling",
+    "category": "AI and Machine Learning"
+  },
+  "data mining": {
+    "title": "Learn Data Mining",
+    "url": "https://www.coursera.org/search?query=data+mining",
+    "category": "AI and Machine Learning"
+  },
+  "knowledge graphs": {
+    "title": "Learn Knowledge Graphs",
+    "url": "https://www.coursera.org/search?query=knowledge+graphs",
+    "category": "AI and Machine Learning"
+  },
+  "semantic search": {
+    "title": "Learn Semantic Search",
+    "url": "https://www.coursera.org/search?query=semantic+search",
+    "category": "AI and Machine Learning"
+  },
+  "text classification": {
+    "title": "Learn Text Classification",
+    "url": "https://www.coursera.org/search?query=text+classification",
+    "category": "AI and Machine Learning"
+  },
+  "named entity recognition": {
+    "title": "Learn Named Entity Recognition",
+    "url": "https://www.coursera.org/search?query=named+entity+recognition",
+    "category": "AI and Machine Learning"
+  },
+  "topic modeling": {
+    "title": "Learn Topic Modeling",
+    "url": "https://www.coursera.org/search?query=topic+modeling",
+    "category": "AI and Machine Learning"
+  },
+  "speech synthesis": {
+    "title": "Learn Speech Synthesis",
+    "url": "https://www.coursera.org/search?query=speech+synthesis",
+    "category": "AI and Machine Learning"
+  },
+  "text to speech": {
+    "title": "Learn Text To Speech",
+    "url": "https://www.coursera.org/search?query=text+to+speech",
+    "category": "AI and Machine Learning"
+  },
+  "ocr": {
+    "title": "Learn Ocr",
+    "url": "https://www.coursera.org/search?query=ocr",
+    "category": "AI and Machine Learning"
+  },
+  "optical character recognition": {
+    "title": "Learn Optical Character Recognition",
+    "url": "https://www.coursera.org/search?query=optical+character+recognition",
+    "category": "AI and Machine Learning"
+  },
+  "pose estimation": {
+    "title": "Learn Pose Estimation",
+    "url": "https://www.coursera.org/search?query=pose+estimation",
+    "category": "AI and Machine Learning"
+  },
+  "facial recognition": {
+    "title": "Learn Facial Recognition",
+    "url": "https://www.coursera.org/search?query=facial+recognition",
+    "category": "AI and Machine Learning"
+  },
+  "autonomous systems": {
+    "title": "Learn Autonomous Systems",
+    "url": "https://www.coursera.org/search?query=autonomous+systems",
+    "category": "AI and Machine Learning"
+  },
+  "self-supervised learning": {
+    "title": "Learn Self-Supervised Learning",
+    "url": "https://www.coursera.org/search?query=self-supervised+learning",
+    "category": "AI and Machine Learning"
+  },
+  "few-shot learning": {
+    "title": "Learn Few-Shot Learning",
+    "url": "https://www.coursera.org/search?query=few-shot+learning",
+    "category": "AI and Machine Learning"
+  },
+  "diffusion models": {
+    "title": "Learn Diffusion Models",
+    "url": "https://www.coursera.org/search?query=diffusion+models",
+    "category": "AI and Machine Learning"
+  },
+  "stable diffusion": {
+    "title": "Learn Stable Diffusion",
+    "url": "https://www.coursera.org/search?query=stable+diffusion",
+    "category": "AI and Machine Learning"
+  },
+  "multimodal models": {
+    "title": "Learn Multimodal Models",
+    "url": "https://www.coursera.org/search?query=multimodal+models",
+    "category": "AI and Machine Learning"
+  },
+  "fine-tuning llms": {
+    "title": "Learn Fine-Tuning Llms",
+    "url": "https://www.coursera.org/search?query=fine-tuning+llms",
+    "category": "AI and Machine Learning"
+  },
+  "llamaindex": {
+    "title": "Learn Llamaindex",
+    "url": "https://www.coursera.org/search?query=llamaindex",
+    "category": "AI and Machine Learning"
+  },
+  "vector search": {
+    "title": "Learn Vector Search",
+    "url": "https://www.coursera.org/search?query=vector+search",
+    "category": "AI and Machine Learning"
+  },
+  "semantic similarity": {
+    "title": "Learn Semantic Similarity",
+    "url": "https://www.coursera.org/search?query=semantic+similarity",
+    "category": "AI and Machine Learning"
+  },
+  "onnx": {
+    "title": "Learn Onnx",
+    "url": "https://www.coursera.org/search?query=onnx",
+    "category": "AI and Machine Learning"
+  },
+  "tensorrt": {
+    "title": "Learn Tensorrt",
+    "url": "https://www.coursera.org/search?query=tensorrt",
+    "category": "AI and Machine Learning"
+  },
+  "model quantization": {
+    "title": "Learn Model Quantization",
+    "url": "https://www.coursera.org/search?query=model+quantization",
+    "category": "AI and Machine Learning"
+  },
+  "edge ai": {
+    "title": "Learn Edge Ai",
+    "url": "https://www.coursera.org/search?query=edge+ai",
+    "category": "AI and Machine Learning"
+  },
+  "tinyml": {
+    "title": "Learn Tinyml",
+    "url": "https://www.coursera.org/search?query=tinyml",
+    "category": "AI and Machine Learning"
+  },
+  "html5": {
+    "title": "MDN HTML Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "category": "Web Technologies"
+  },
+  "css3": {
+    "title": "MDN CSS Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "category": "Web Technologies"
+  },
+  "sass": {
+    "title": "Learn Sass",
+    "url": "https://developer.mozilla.org/en-US/search?q=sass",
+    "category": "Web Technologies"
+  },
+  "less": {
+    "title": "Learn Less",
+    "url": "https://developer.mozilla.org/en-US/search?q=less",
+    "category": "Web Technologies"
+  },
+  "rest api": {
+    "title": "RESTful API Tutorial",
+    "url": "https://restfulapi.net/",
+    "category": "Web Technologies"
+  },
+  "restful services": {
+    "title": "Learn Restful Services",
+    "url": "https://developer.mozilla.org/en-US/search?q=restful+services",
+    "category": "Web Technologies"
+  },
+  "graphql": {
+    "title": "GraphQL Official Learn",
+    "url": "https://graphql.org/learn/",
+    "category": "Web Technologies"
+  },
+  "websocket": {
+    "title": "Learn Websocket",
+    "url": "https://developer.mozilla.org/en-US/search?q=websocket",
+    "category": "Web Technologies"
+  },
+  "json": {
+    "title": "Learn Json",
+    "url": "https://developer.mozilla.org/en-US/search?q=json",
+    "category": "Web Technologies"
+  },
+  "xml": {
+    "title": "Learn Xml",
+    "url": "https://developer.mozilla.org/en-US/search?q=xml",
+    "category": "Web Technologies"
+  },
+  "ajax": {
+    "title": "Learn Ajax",
+    "url": "https://developer.mozilla.org/en-US/search?q=ajax",
+    "category": "Web Technologies"
+  },
+  "web sockets": {
+    "title": "Learn Web Sockets",
+    "url": "https://developer.mozilla.org/en-US/search?q=web+sockets",
+    "category": "Web Technologies"
+  },
+  "oauth": {
+    "title": "Learn Oauth",
+    "url": "https://developer.mozilla.org/en-US/search?q=oauth",
+    "category": "Web Technologies"
+  },
+  "jwt": {
+    "title": "Learn Jwt",
+    "url": "https://developer.mozilla.org/en-US/search?q=jwt",
+    "category": "Web Technologies"
+  },
+  "webrtc": {
+    "title": "Learn Webrtc",
+    "url": "https://developer.mozilla.org/en-US/search?q=webrtc",
+    "category": "Web Technologies"
+  },
+  "pwa": {
+    "title": "Learn Pwa",
+    "url": "https://developer.mozilla.org/en-US/search?q=pwa",
+    "category": "Web Technologies"
+  },
+  "progressive web apps": {
+    "title": "Learn Progressive Web Apps",
+    "url": "https://developer.mozilla.org/en-US/search?q=progressive+web+apps",
+    "category": "Web Technologies"
+  },
+  "responsive design": {
+    "title": "Learn Responsive Design",
+    "url": "https://developer.mozilla.org/en-US/search?q=responsive+design",
+    "category": "Web Technologies"
+  },
+  "seo": {
+    "title": "Learn Seo",
+    "url": "https://developer.mozilla.org/en-US/search?q=seo",
+    "category": "Web Technologies"
+  },
+  "web accessibility": {
+    "title": "Learn Web Accessibility",
+    "url": "https://developer.mozilla.org/en-US/search?q=web+accessibility",
+    "category": "Web Technologies"
+  },
+  "microservices": {
+    "title": "Learn Microservices",
+    "url": "https://developer.mozilla.org/en-US/search?q=microservices",
+    "category": "Web Technologies"
+  },
+  "api development": {
+    "title": "Learn Api Development",
+    "url": "https://developer.mozilla.org/en-US/search?q=api+development",
+    "category": "Web Technologies"
+  },
+  "soap": {
+    "title": "Learn Soap",
+    "url": "https://developer.mozilla.org/en-US/search?q=soap",
+    "category": "Web Technologies"
+  },
+  "grpc": {
+    "title": "Learn Grpc",
+    "url": "https://developer.mozilla.org/en-US/search?q=grpc",
+    "category": "Web Technologies"
+  },
+  "cors": {
+    "title": "Learn Cors",
+    "url": "https://developer.mozilla.org/en-US/search?q=cors",
+    "category": "Web Technologies"
+  },
+  "http/https": {
+    "title": "Learn Http/Https",
+    "url": "https://developer.mozilla.org/en-US/search?q=http/https",
+    "category": "Web Technologies"
+  },
+  "web components": {
+    "title": "Learn Web Components",
+    "url": "https://developer.mozilla.org/en-US/search?q=web+components",
+    "category": "Web Technologies"
+  },
+  "service workers": {
+    "title": "Learn Service Workers",
+    "url": "https://developer.mozilla.org/en-US/search?q=service+workers",
+    "category": "Web Technologies"
+  },
+  "server side rendering": {
+    "title": "Learn Server Side Rendering",
+    "url": "https://developer.mozilla.org/en-US/search?q=server+side+rendering",
+    "category": "Web Technologies"
+  },
+  "ssr": {
+    "title": "Learn Ssr",
+    "url": "https://developer.mozilla.org/en-US/search?q=ssr",
+    "category": "Web Technologies"
+  },
+  "static site generation": {
+    "title": "Learn Static Site Generation",
+    "url": "https://developer.mozilla.org/en-US/search?q=static+site+generation",
+    "category": "Web Technologies"
+  },
+  "single page application": {
+    "title": "Learn Single Page Application",
+    "url": "https://developer.mozilla.org/en-US/search?q=single+page+application",
+    "category": "Web Technologies"
+  },
+  "spa": {
+    "title": "Learn Spa",
+    "url": "https://developer.mozilla.org/en-US/search?q=spa",
+    "category": "Web Technologies"
+  },
+  "micro frontends": {
+    "title": "Learn Micro Frontends",
+    "url": "https://developer.mozilla.org/en-US/search?q=micro+frontends",
+    "category": "Web Technologies"
+  },
+  "content delivery network": {
+    "title": "Learn Content Delivery Network",
+    "url": "https://developer.mozilla.org/en-US/search?q=content+delivery+network",
+    "category": "Web Technologies"
+  },
+  "cdn": {
+    "title": "Learn Cdn",
+    "url": "https://developer.mozilla.org/en-US/search?q=cdn",
+    "category": "Web Technologies"
+  },
+  "http2": {
+    "title": "Learn Http2",
+    "url": "https://developer.mozilla.org/en-US/search?q=http2",
+    "category": "Web Technologies"
+  },
+  "server sent events": {
+    "title": "Learn Server Sent Events",
+    "url": "https://developer.mozilla.org/en-US/search?q=server+sent+events",
+    "category": "Web Technologies"
+  },
+  "webassembly": {
+    "title": "Learn Webassembly",
+    "url": "https://developer.mozilla.org/en-US/search?q=webassembly",
+    "category": "Web Technologies"
+  },
+  "wasm": {
+    "title": "Learn Wasm",
+    "url": "https://developer.mozilla.org/en-US/search?q=wasm",
+    "category": "Web Technologies"
+  },
+  "css grid": {
+    "title": "Learn Css Grid",
+    "url": "https://developer.mozilla.org/en-US/search?q=css+grid",
+    "category": "Web Technologies"
+  },
+  "flexbox": {
+    "title": "Learn Flexbox",
+    "url": "https://developer.mozilla.org/en-US/search?q=flexbox",
+    "category": "Web Technologies"
+  },
+  "sass/scss": {
+    "title": "Learn Sass/Scss",
+    "url": "https://developer.mozilla.org/en-US/search?q=sass/scss",
+    "category": "Web Technologies"
+  },
+  "styled components": {
+    "title": "Learn Styled Components",
+    "url": "https://developer.mozilla.org/en-US/search?q=styled+components",
+    "category": "Web Technologies"
+  },
+  "css-in-js": {
+    "title": "Learn Css-In-Js",
+    "url": "https://developer.mozilla.org/en-US/search?q=css-in-js",
+    "category": "Web Technologies"
+  },
+  "material ui": {
+    "title": "Learn Material Ui",
+    "url": "https://developer.mozilla.org/en-US/search?q=material+ui",
+    "category": "Web Technologies"
+  },
+  "chakra ui": {
+    "title": "Learn Chakra Ui",
+    "url": "https://developer.mozilla.org/en-US/search?q=chakra+ui",
+    "category": "Web Technologies"
+  },
+  "ant design": {
+    "title": "Learn Ant Design",
+    "url": "https://developer.mozilla.org/en-US/search?q=ant+design",
+    "category": "Web Technologies"
+  },
+  "bulma": {
+    "title": "Learn Bulma",
+    "url": "https://developer.mozilla.org/en-US/search?q=bulma",
+    "category": "Web Technologies"
+  },
+  "web sockets api": {
+    "title": "Learn Web Sockets Api",
+    "url": "https://developer.mozilla.org/en-US/search?q=web+sockets+api",
+    "category": "Web Technologies"
+  },
+  "fetch api": {
+    "title": "Learn Fetch Api",
+    "url": "https://developer.mozilla.org/en-US/search?q=fetch+api",
+    "category": "Web Technologies"
+  },
+  "axios": {
+    "title": "Learn Axios",
+    "url": "https://developer.mozilla.org/en-US/search?q=axios",
+    "category": "Web Technologies"
+  },
+  "form validation": {
+    "title": "Learn Form Validation",
+    "url": "https://developer.mozilla.org/en-US/search?q=form+validation",
+    "category": "Web Technologies"
+  },
+  "browser devtools": {
+    "title": "Learn Browser Devtools",
+    "url": "https://developer.mozilla.org/en-US/search?q=browser+devtools",
+    "category": "Web Technologies"
+  },
+  "data structures": {
+    "title": "GeeksforGeeks Data Structures",
+    "url": "https://www.geeksforgeeks.org/data-structures/",
+    "category": "Other Skills"
+  },
+  "algorithms": {
+    "title": "Algorithms Specialization (Coursera)",
+    "url": "https://www.coursera.org/specializations/algorithms",
+    "category": "Other Skills"
+  },
+  "object oriented programming": {
+    "title": "Learn Object Oriented Programming",
+    "url": "https://www.coursera.org/search?query=object+oriented+programming",
+    "category": "Other Skills"
+  },
+  "system design": {
+    "title": "System Design Primer (GitHub)",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "category": "Other Skills"
+  },
+  "agile methodology": {
+    "title": "Atlassian Agile Coach",
+    "url": "https://www.atlassian.com/agile",
+    "category": "Other Skills"
+  },
+  "scrum": {
+    "title": "Learn Scrum",
+    "url": "https://www.coursera.org/search?query=scrum",
+    "category": "Other Skills"
+  },
+  "software testing": {
+    "title": "Learn Software Testing",
+    "url": "https://www.coursera.org/search?query=software+testing",
+    "category": "Other Skills"
+  },
+  "unit testing": {
+    "title": "Learn Unit Testing",
+    "url": "https://www.coursera.org/search?query=unit+testing",
+    "category": "Other Skills"
+  },
+  "debugging": {
+    "title": "Learn Debugging",
+    "url": "https://www.coursera.org/search?query=debugging",
+    "category": "Other Skills"
+  },
+  "version control": {
+    "title": "Learn Version Control",
+    "url": "https://www.coursera.org/search?query=version+control",
+    "category": "Other Skills"
+  },
+  "problem solving": {
+    "title": "Learn Problem Solving",
+    "url": "https://www.coursera.org/search?query=problem+solving",
+    "category": "Other Skills"
+  },
+  "data analysis": {
+    "title": "Learn Data Analysis",
+    "url": "https://www.coursera.org/search?query=data+analysis",
+    "category": "Other Skills"
+  },
+  "data visualization": {
+    "title": "Learn Data Visualization",
+    "url": "https://www.coursera.org/search?query=data+visualization",
+    "category": "Other Skills"
+  },
+  "statistics": {
+    "title": "Learn Statistics",
+    "url": "https://www.coursera.org/search?query=statistics",
+    "category": "Other Skills"
+  },
+  "probability": {
+    "title": "Learn Probability",
+    "url": "https://www.coursera.org/search?query=probability",
+    "category": "Other Skills"
+  },
+  "business analysis": {
+    "title": "Learn Business Analysis",
+    "url": "https://www.coursera.org/search?query=business+analysis",
+    "category": "Other Skills"
+  },
+  "project management": {
+    "title": "Learn Project Management",
+    "url": "https://www.coursera.org/search?query=project+management",
+    "category": "Other Skills"
+  },
+  "technical writing": {
+    "title": "Learn Technical Writing",
+    "url": "https://www.coursera.org/search?query=technical+writing",
+    "category": "Other Skills"
+  },
+  "cybersecurity": {
+    "title": "Cybrary Free Courses",
+    "url": "https://www.cybrary.it/",
+    "category": "Other Skills"
+  },
+  "network security": {
+    "title": "Learn Network Security",
+    "url": "https://www.coursera.org/search?query=network+security",
+    "category": "Other Skills"
+  },
+  "penetration testing": {
+    "title": "Learn Penetration Testing",
+    "url": "https://www.coursera.org/search?query=penetration+testing",
+    "category": "Other Skills"
+  },
+  "cryptography": {
+    "title": "Learn Cryptography",
+    "url": "https://www.coursera.org/search?query=cryptography",
+    "category": "Other Skills"
+  },
+  "blockchain": {
+    "title": "Ethereum Developer Docs",
+    "url": "https://ethereum.org/en/developers/docs/",
+    "category": "Other Skills"
+  },
+  "cloud security": {
+    "title": "Learn Cloud Security",
+    "url": "https://www.coursera.org/search?query=cloud+security",
+    "category": "Other Skills"
+  },
+  "devsecops": {
+    "title": "Learn Devsecops",
+    "url": "https://www.coursera.org/search?query=devsecops",
+    "category": "Other Skills"
+  },
+  "ui/ux design": {
+    "title": "Learn Ui/Ux Design",
+    "url": "https://www.coursera.org/search?query=ui/ux+design",
+    "category": "Other Skills"
+  },
+  "user research": {
+    "title": "Learn User Research",
+    "url": "https://www.coursera.org/search?query=user+research",
+    "category": "Other Skills"
+  },
+  "wireframing": {
+    "title": "Learn Wireframing",
+    "url": "https://www.coursera.org/search?query=wireframing",
+    "category": "Other Skills"
+  },
+  "prototyping": {
+    "title": "Learn Prototyping",
+    "url": "https://www.coursera.org/search?query=prototyping",
+    "category": "Other Skills"
+  },
+  "database design": {
+    "title": "Learn Database Design",
+    "url": "https://www.coursera.org/search?query=database+design",
+    "category": "Other Skills"
+  },
+  "normalization": {
+    "title": "Learn Normalization",
+    "url": "https://www.coursera.org/search?query=normalization",
+    "category": "Other Skills"
+  },
+  "etl": {
+    "title": "Learn Etl",
+    "url": "https://www.coursera.org/search?query=etl",
+    "category": "Other Skills"
+  },
+  "data warehousing": {
+    "title": "Learn Data Warehousing",
+    "url": "https://www.coursera.org/search?query=data+warehousing",
+    "category": "Other Skills"
+  },
+  "big data": {
+    "title": "Learn Big Data",
+    "url": "https://www.coursera.org/search?query=big+data",
+    "category": "Other Skills"
+  },
+  "hadoop": {
+    "title": "Apache Hadoop Getting Started",
+    "url": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html",
+    "category": "Other Skills"
+  },
+  "spark": {
+    "title": "Apache Spark Quickstart",
+    "url": "https://spark.apache.org/docs/latest/quick-start.html",
+    "category": "Other Skills"
+  },
+  "apache spark": {
+    "title": "Apache Spark Quickstart",
+    "url": "https://spark.apache.org/docs/latest/quick-start.html",
+    "category": "Other Skills"
+  },
+  "distributed systems": {
+    "title": "Learn Distributed Systems",
+    "url": "https://www.coursera.org/search?query=distributed+systems",
+    "category": "Other Skills"
+  },
+  "load balancing": {
+    "title": "Learn Load Balancing",
+    "url": "https://www.coursera.org/search?query=load+balancing",
+    "category": "Other Skills"
+  },
+  "caching": {
+    "title": "Learn Caching",
+    "url": "https://www.coursera.org/search?query=caching",
+    "category": "Other Skills"
+  },
+  "api testing": {
+    "title": "Learn Api Testing",
+    "url": "https://www.coursera.org/search?query=api+testing",
+    "category": "Other Skills"
+  },
+  "performance testing": {
+    "title": "Learn Performance Testing",
+    "url": "https://www.coursera.org/search?query=performance+testing",
+    "category": "Other Skills"
+  },
+  "mobile app development": {
+    "title": "Learn Mobile App Development",
+    "url": "https://www.coursera.org/search?query=mobile+app+development",
+    "category": "Other Skills"
+  },
+  "android development": {
+    "title": "Learn Android Development",
+    "url": "https://www.coursera.org/search?query=android+development",
+    "category": "Other Skills"
+  },
+  "ios development": {
+    "title": "Learn Ios Development",
+    "url": "https://www.coursera.org/search?query=ios+development",
+    "category": "Other Skills"
+  },
+  "game development": {
+    "title": "Learn Game Development",
+    "url": "https://www.coursera.org/search?query=game+development",
+    "category": "Other Skills"
+  },
+  "unity": {
+    "title": "Unity Learn",
+    "url": "https://learn.unity.com/",
+    "category": "Other Skills"
+  },
+  "unreal engine": {
+    "title": "Unreal Engine Learning",
+    "url": "https://dev.epicgames.com/community/learning",
+    "category": "Other Skills"
+  },
+  "embedded systems": {
+    "title": "Learn Embedded Systems",
+    "url": "https://www.coursera.org/search?query=embedded+systems",
+    "category": "Other Skills"
+  },
+  "iot": {
+    "title": "Learn Iot",
+    "url": "https://www.coursera.org/search?query=iot",
+    "category": "Other Skills"
+  },
+  "robotics": {
+    "title": "Learn Robotics",
+    "url": "https://www.coursera.org/search?query=robotics",
+    "category": "Other Skills"
+  },
+  "quantum computing": {
+    "title": "Learn Quantum Computing",
+    "url": "https://www.coursera.org/search?query=quantum+computing",
+    "category": "Other Skills"
+  },
+  "digital marketing": {
+    "title": "Learn Digital Marketing",
+    "url": "https://www.coursera.org/search?query=digital+marketing",
+    "category": "Other Skills"
+  },
+  "content writing": {
+    "title": "Learn Content Writing",
+    "url": "https://www.coursera.org/search?query=content+writing",
+    "category": "Other Skills"
+  },
+  "public speaking": {
+    "title": "Learn Public Speaking",
+    "url": "https://www.coursera.org/search?query=public+speaking",
+    "category": "Other Skills"
+  },
+  "team leadership": {
+    "title": "Learn Team Leadership",
+    "url": "https://www.coursera.org/search?query=team+leadership",
+    "category": "Other Skills"
+  },
+  "communication skills": {
+    "title": "Learn Communication Skills",
+    "url": "https://www.coursera.org/search?query=communication+skills",
+    "category": "Other Skills"
+  },
+  "time management": {
+    "title": "Learn Time Management",
+    "url": "https://www.coursera.org/search?query=time+management",
+    "category": "Other Skills"
+  },
+  "critical thinking": {
+    "title": "Learn Critical Thinking",
+    "url": "https://www.coursera.org/search?query=critical+thinking",
+    "category": "Other Skills"
+  },
+  "software architecture": {
+    "title": "Learn Software Architecture",
+    "url": "https://www.coursera.org/search?query=software+architecture",
+    "category": "Other Skills"
+  },
+  "clean code": {
+    "title": "Learn Clean Code",
+    "url": "https://www.coursera.org/search?query=clean+code",
+    "category": "Other Skills"
+  },
+  "design patterns": {
+    "title": "Learn Design Patterns",
+    "url": "https://www.coursera.org/search?query=design+patterns",
+    "category": "Other Skills"
+  },
+  "solid principles": {
+    "title": "Learn Solid Principles",
+    "url": "https://www.coursera.org/search?query=solid+principles",
+    "category": "Other Skills"
+  },
+  "test driven development": {
+    "title": "Learn Test Driven Development",
+    "url": "https://www.coursera.org/search?query=test+driven+development",
+    "category": "Other Skills"
+  },
+  "tdd": {
+    "title": "Learn Tdd",
+    "url": "https://www.coursera.org/search?query=tdd",
+    "category": "Other Skills"
+  },
+  "behavior driven development": {
+    "title": "Learn Behavior Driven Development",
+    "url": "https://www.coursera.org/search?query=behavior+driven+development",
+    "category": "Other Skills"
+  },
+  "bdd": {
+    "title": "Learn Bdd",
+    "url": "https://www.coursera.org/search?query=bdd",
+    "category": "Other Skills"
+  },
+  "code review": {
+    "title": "Learn Code Review",
+    "url": "https://www.coursera.org/search?query=code+review",
+    "category": "Other Skills"
+  },
+  "pair programming": {
+    "title": "Learn Pair Programming",
+    "url": "https://www.coursera.org/search?query=pair+programming",
+    "category": "Other Skills"
+  },
+  "technical documentation": {
+    "title": "Learn Technical Documentation",
+    "url": "https://www.coursera.org/search?query=technical+documentation",
+    "category": "Other Skills"
+  },
+  "requirements gathering": {
+    "title": "Learn Requirements Gathering",
+    "url": "https://www.coursera.org/search?query=requirements+gathering",
+    "category": "Other Skills"
+  },
+  "stakeholder management": {
+    "title": "Learn Stakeholder Management",
+    "url": "https://www.coursera.org/search?query=stakeholder+management",
+    "category": "Other Skills"
+  },
+  "risk management": {
+    "title": "Learn Risk Management",
+    "url": "https://www.coursera.org/search?query=risk+management",
+    "category": "Other Skills"
+  },
+  "kanban": {
+    "title": "Learn Kanban",
+    "url": "https://www.coursera.org/search?query=kanban",
+    "category": "Other Skills"
+  },
+  "waterfall model": {
+    "title": "Learn Waterfall Model",
+    "url": "https://www.coursera.org/search?query=waterfall+model",
+    "category": "Other Skills"
+  },
+  "software development life cycle": {
+    "title": "Learn Software Development Life Cycle",
+    "url": "https://www.coursera.org/search?query=software+development+life+cycle",
+    "category": "Other Skills"
+  },
+  "sdlc": {
+    "title": "Learn Sdlc",
+    "url": "https://www.coursera.org/search?query=sdlc",
+    "category": "Other Skills"
+  },
+  "release management": {
+    "title": "Learn Release Management",
+    "url": "https://www.coursera.org/search?query=release+management",
+    "category": "Other Skills"
+  },
+  "incident management": {
+    "title": "Learn Incident Management",
+    "url": "https://www.coursera.org/search?query=incident+management",
+    "category": "Other Skills"
+  },
+  "root cause analysis": {
+    "title": "Learn Root Cause Analysis",
+    "url": "https://www.coursera.org/search?query=root+cause+analysis",
+    "category": "Other Skills"
+  },
+  "monitoring and alerting": {
+    "title": "Learn Monitoring And Alerting",
+    "url": "https://www.coursera.org/search?query=monitoring+and+alerting",
+    "category": "Other Skills"
+  },
+  "business intelligence": {
+    "title": "Learn Business Intelligence",
+    "url": "https://www.coursera.org/search?query=business+intelligence",
+    "category": "Other Skills"
+  },
+  "dashboarding": {
+    "title": "Learn Dashboarding",
+    "url": "https://www.coursera.org/search?query=dashboarding",
+    "category": "Other Skills"
+  },
+  "regression testing": {
+    "title": "Learn Regression Testing",
+    "url": "https://www.coursera.org/search?query=regression+testing",
+    "category": "Other Skills"
+  },
+  "integration testing": {
+    "title": "Learn Integration Testing",
+    "url": "https://www.coursera.org/search?query=integration+testing",
+    "category": "Other Skills"
+  },
+  "end to end testing": {
+    "title": "Learn End To End Testing",
+    "url": "https://www.coursera.org/search?query=end+to+end+testing",
+    "category": "Other Skills"
+  },
+  "accessibility testing": {
+    "title": "Learn Accessibility Testing",
+    "url": "https://www.coursera.org/search?query=accessibility+testing",
+    "category": "Other Skills"
+  },
+  "cross browser testing": {
+    "title": "Learn Cross Browser Testing",
+    "url": "https://www.coursera.org/search?query=cross+browser+testing",
+    "category": "Other Skills"
+  },
+  "mobile testing": {
+    "title": "Learn Mobile Testing",
+    "url": "https://www.coursera.org/search?query=mobile+testing",
+    "category": "Other Skills"
+  },
+  "api security": {
+    "title": "Learn Api Security",
+    "url": "https://www.coursera.org/search?query=api+security",
+    "category": "Other Skills"
+  },
+  "identity and access management": {
+    "title": "Learn Identity And Access Management",
+    "url": "https://www.coursera.org/search?query=identity+and+access+management",
+    "category": "Other Skills"
+  },
+  "iam": {
+    "title": "Learn Iam",
+    "url": "https://www.coursera.org/search?query=iam",
+    "category": "Other Skills"
+  },
+  "single sign-on": {
+    "title": "Learn Single Sign-On",
+    "url": "https://www.coursera.org/search?query=single+sign-on",
+    "category": "Other Skills"
+  },
+  "sso": {
+    "title": "Learn Sso",
+    "url": "https://www.coursera.org/search?query=sso",
+    "category": "Other Skills"
+  },
+  "zero trust security": {
+    "title": "Learn Zero Trust Security",
+    "url": "https://www.coursera.org/search?query=zero+trust+security",
+    "category": "Other Skills"
+  },
+  "compliance": {
+    "title": "Learn Compliance",
+    "url": "https://www.coursera.org/search?query=compliance",
+    "category": "Other Skills"
+  },
+  "gdpr": {
+    "title": "Learn Gdpr",
+    "url": "https://www.coursera.org/search?query=gdpr",
+    "category": "Other Skills"
+  },
+  "data privacy": {
+    "title": "Learn Data Privacy",
+    "url": "https://www.coursera.org/search?query=data+privacy",
+    "category": "Other Skills"
+  },
+  "encryption": {
+    "title": "Learn Encryption",
+    "url": "https://www.coursera.org/search?query=encryption",
+    "category": "Other Skills"
+  },
+  "hashing algorithms": {
+    "title": "Learn Hashing Algorithms",
+    "url": "https://www.coursera.org/search?query=hashing+algorithms",
+    "category": "Other Skills"
+  },
+  "threat modeling": {
+    "title": "Learn Threat Modeling",
+    "url": "https://www.coursera.org/search?query=threat+modeling",
+    "category": "Other Skills"
+  },
+  "vulnerability assessment": {
+    "title": "Learn Vulnerability Assessment",
+    "url": "https://www.coursera.org/search?query=vulnerability+assessment",
+    "category": "Other Skills"
+  },
+  "digital forensics": {
+    "title": "Learn Digital Forensics",
+    "url": "https://www.coursera.org/search?query=digital+forensics",
+    "category": "Other Skills"
+  },
+  "cloud architecture": {
+    "title": "Learn Cloud Architecture",
+    "url": "https://www.coursera.org/search?query=cloud+architecture",
+    "category": "Other Skills"
+  },
+  "enterprise architecture": {
+    "title": "Learn Enterprise Architecture",
+    "url": "https://www.coursera.org/search?query=enterprise+architecture",
+    "category": "Other Skills"
+  },
+  "solution architecture": {
+    "title": "Learn Solution Architecture",
+    "url": "https://www.coursera.org/search?query=solution+architecture",
+    "category": "Other Skills"
+  },
+  "cost optimization": {
+    "title": "Learn Cost Optimization",
+    "url": "https://www.coursera.org/search?query=cost+optimization",
+    "category": "Other Skills"
+  },
+  "technical leadership": {
+    "title": "Learn Technical Leadership",
+    "url": "https://www.coursera.org/search?query=technical+leadership",
+    "category": "Other Skills"
+  },
+  "mentoring": {
+    "title": "Learn Mentoring",
+    "url": "https://www.coursera.org/search?query=mentoring",
+    "category": "Other Skills"
+  },
+  "cross functional collaboration": {
+    "title": "Learn Cross Functional Collaboration",
+    "url": "https://www.coursera.org/search?query=cross+functional+collaboration",
+    "category": "Other Skills"
+  },
+  "presentation skills": {
+    "title": "Learn Presentation Skills",
+    "url": "https://www.coursera.org/search?query=presentation+skills",
+    "category": "Other Skills"
+  },
+  "negotiation": {
+    "title": "Learn Negotiation",
+    "url": "https://www.coursera.org/search?query=negotiation",
+    "category": "Other Skills"
+  },
+  "conflict resolution": {
+    "title": "Learn Conflict Resolution",
+    "url": "https://www.coursera.org/search?query=conflict+resolution",
+    "category": "Other Skills"
+  },
+  "adaptability": {
+    "title": "Learn Adaptability",
+    "url": "https://www.coursera.org/search?query=adaptability",
+    "category": "Other Skills"
+  },
+  "creativity": {
+    "title": "Learn Creativity",
+    "url": "https://www.coursera.org/search?query=creativity",
+    "category": "Other Skills"
+  },
+  "analytical thinking": {
+    "title": "Learn Analytical Thinking",
+    "url": "https://www.coursera.org/search?query=analytical+thinking",
+    "category": "Other Skills"
+  },
+  "attention to detail": {
+    "title": "Learn Attention To Detail",
+    "url": "https://www.coursera.org/search?query=attention+to+detail",
+    "category": "Other Skills"
+  },
+  "research skills": {
+    "title": "Learn Research Skills",
+    "url": "https://www.coursera.org/search?query=research+skills",
+    "category": "Other Skills"
+  },
+  "report writing": {
+    "title": "Learn Report Writing",
+    "url": "https://www.coursera.org/search?query=report+writing",
+    "category": "Other Skills"
+  },
+  "video editing": {
+    "title": "Learn Video Editing",
+    "url": "https://www.coursera.org/search?query=video+editing",
+    "category": "Other Skills"
+  },
+  "graphic design": {
+    "title": "Learn Graphic Design",
+    "url": "https://www.coursera.org/search?query=graphic+design",
+    "category": "Other Skills"
+  },
+  "photoshop": {
+    "title": "Learn Photoshop",
+    "url": "https://www.coursera.org/search?query=photoshop",
+    "category": "Other Skills"
+  },
+  "illustrator": {
+    "title": "Learn Illustrator",
+    "url": "https://www.coursera.org/search?query=illustrator",
+    "category": "Other Skills"
+  },
+  "canva": {
+    "title": "Learn Canva",
+    "url": "https://www.coursera.org/search?query=canva",
+    "category": "Other Skills"
+  },
+  "3d modeling": {
+    "title": "Learn 3D Modeling",
+    "url": "https://www.coursera.org/search?query=3d+modeling",
+    "category": "Other Skills"
+  },
+  "blender": {
+    "title": "Learn Blender",
+    "url": "https://www.coursera.org/search?query=blender",
+    "category": "Other Skills"
+  },
+  "augmented reality": {
+    "title": "Learn Augmented Reality",
+    "url": "https://www.coursera.org/search?query=augmented+reality",
+    "category": "Other Skills"
+  },
+  "virtual reality": {
+    "title": "Learn Virtual Reality",
+    "url": "https://www.coursera.org/search?query=virtual+reality",
+    "category": "Other Skills"
+  },
+  "ar/vr development": {
+    "title": "Learn Ar/Vr Development",
+    "url": "https://www.coursera.org/search?query=ar/vr+development",
+    "category": "Other Skills"
+  },
+  "arkit": {
+    "title": "Learn Arkit",
+    "url": "https://www.coursera.org/search?query=arkit",
+    "category": "Other Skills"
+  },
+  "arcore": {
+    "title": "Learn Arcore",
+    "url": "https://www.coursera.org/search?query=arcore",
+    "category": "Other Skills"
+  }
+}

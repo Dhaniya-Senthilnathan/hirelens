@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page editorial-page">
+  <div class="edit-shell">
+    <div class="eyebrow">Why hirelens</div>
+    <h1>Built for the twenty-tabs-open job search.</h1>
+    <p class="lead">Most engineering students apply to a role, wait two weeks, and get a rejection email with no explanation. hirelens exists so you find out where you stand before you hit submit — not after.</p>
+
+    <div class="edit-section">
+      <h2><span class="n">01</span>The problem</h2>
+      <p>Job postings list fifteen required skills. Your resume lists twelve, worded differently, buried under project descriptions. Nobody actually checks the overlap by hand — you just apply and hope. That guesswork is what this tool replaces.</p>
+    </div>
+
+    <div class="edit-section">
+      <h2><span class="n">02</span>How it works</h2>
+      <p>Upload a resume and paste a job description. Both get parsed against a curated dictionary of 500+ technical terms — languages, frameworks, cloud tools, security concepts — matched through phrase matching with spaCy's NER as a fallback for anything the dictionary misses.</p>
+      <p>The match score itself isn't a simple overlap count. It's built from TF‑IDF vectors of both documents compared with cosine similarity, so a skill central to the job posting counts for more than one mentioned once in passing.</p>
+    </div>
+
+    <div class="edit-section">
+      <h2><span class="n">03</span>Who it's for</h2>
+      <p>Engineering students and early-career developers applying to their first few roles — where the gap between "I know this" and "I can prove it on paper" is usually the entire problem.</p>
+    </div>
+
+    <p class="about-sign">A student-built project, not a company. Feedback welcome — see Contact.</p>
+  </div>
+</section>
+{% endblock %}
