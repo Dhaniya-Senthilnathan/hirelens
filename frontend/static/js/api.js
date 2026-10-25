@@ -1,7 +1,8 @@
 (function () {
   const defaultLocalApi = 'http://127.0.0.1:8000';
   const configuredApi = window.HIRELENS_API_BASE || '';
-  const deploymentApi = configuredApi || defaultLocalApi;
+  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const deploymentApi = configuredApi || (isLocal ? defaultLocalApi : window.location.origin);
 
   window.HIRELENS_API_BASE = deploymentApi;
   window.HIRELENS_SITE_BASE = window.location.hostname.endsWith('github.io') ? '/hirelens' : '';
@@ -17,7 +18,8 @@
 (function () {
   const defaultLocalApi = 'http://127.0.0.1:8000';
   const configuredApi = window.HIRELENS_API_BASE || '';
-  const deploymentApi = configuredApi || defaultLocalApi;
+  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const deploymentApi = configuredApi || (isLocal ? defaultLocalApi : window.location.origin);
 
   window.HIRELENS_API_BASE = deploymentApi;
   window.HIRELENS_SITE_BASE = window.location.hostname.endsWith('github.io') ? '/hirelens' : '';

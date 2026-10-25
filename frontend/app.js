@@ -9,7 +9,7 @@ const API_BASE = (function () {
   if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
     return `${location.protocol}//${location.host}`;
   }
-  return "http://127.0.0.1:8000";
+  return location.origin;
 })();
 
 const AUTH_KEY = "hirelens_auth";       // { token, user }

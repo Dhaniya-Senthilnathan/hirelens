@@ -71,6 +71,19 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
 This starts the app from the backend root, which matches the actual FastAPI location in `backend/main.py`.
+When using the site served by your Render service, API requests use that same Render origin automatically. After deploying, open `https://YOUR-SERVICE.onrender.com/api/health`; a healthy service responds with `{"status":"ok","service":"hirelens-api"}`. Then open `https://YOUR-SERVICE.onrender.com/signup` and try creating an account.
+
+If you serve the separate GitHub Pages frontend, it must be told the Render backend URL. In `frontend/index.html`, add this before the `static/js/api.js` script tag, replacing the example with your actual Render service URL:
+
+```html
+<script>window.HIRELENS_API_BASE = 'https://YOUR-SERVICE.onrender.com';</script>
+```
+
+The default CORS configuration already allows this repository's GitHub Pages origin. If you changed the frontend domain, add that exact origin to the Render `CORS_ALLOWED_ORIGINS` environment variable.
+
+If signup still fails, check the browser's Developer Tools → Network for the `/api/auth/signup` request and its response, then check the Render service's Logs for the matching error. A browser network error usually means the backend URL or CORS origin is wrong; an HTTP 4xx response includes the reason in its JSON `detail`; an HTTP 5xx response should have a corresponding backend log entry.
+
+The database is SQLite in `backend/database/hirelens.db`. Render's free service filesystem is ephemeral, so account data can be lost when the service restarts or redeploys. Use a persistent disk or managed database if account data must survive those events.
 
 ## Environment variables
 
