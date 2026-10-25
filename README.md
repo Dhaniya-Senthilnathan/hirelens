@@ -79,7 +79,7 @@ If you serve the separate GitHub Pages frontend, it must be told the Render back
 <script>window.HIRELENS_API_BASE = 'https://YOUR-SERVICE.onrender.com';</script>
 ```
 
-The default CORS configuration already allows this repository's GitHub Pages origin. If you changed the frontend domain, add that exact origin to the Render `CORS_ALLOWED_ORIGINS` environment variable.
+The default CORS configuration allows both this Render service origin and this repository's GitHub Pages origin. If you use a different frontend domain, add that exact origin to the Render `CORS_ALLOWED_ORIGINS` environment variable.
 
 If signup still fails, check the browser's Developer Tools → Network for the `/api/auth/signup` request and its response, then check the Render service's Logs for the matching error. A browser network error usually means the backend URL or CORS origin is wrong; an HTTP 4xx response includes the reason in its JSON `detail`; an HTTP 5xx response should have a corresponding backend log entry.
 

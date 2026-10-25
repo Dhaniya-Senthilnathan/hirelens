@@ -49,7 +49,7 @@ async def handle_unexpected_exception(request, exc: Exception):
 # overridden with CORS_ALLOWED_ORIGINS if needed in deployment.
 allowed_origins = os.environ.get(
     "CORS_ALLOWED_ORIGINS",
-    "https://dhaniya-senthilnathan.github.io,http://127.0.0.1:8000,http://localhost:8000,http://127.0.0.1:8080,http://localhost:8080",
+    "https://hirelens-3bxc.onrender.com,https://dhaniya-senthilnathan.github.io,http://127.0.0.1:8000,http://localhost:8000,http://127.0.0.1:8080,http://localhost:8080",
 ).split(",")
 allowed_origins = [origin.strip() for origin in allowed_origins if origin.strip()]
 
